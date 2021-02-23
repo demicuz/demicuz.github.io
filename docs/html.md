@@ -1,5 +1,5 @@
 [HTML5 Boilerplate homepage](https://html5boilerplate.com/) | [Documentation
-table of contents](TOC.md)
+table of contents](docs/TOC.mdOC.md)
 
 # The HTML
 
@@ -116,6 +116,7 @@ control over the UI of a saved site or web app on a mobile device.
 It's linked to from the HTML as follows:
 
 ```html
+
 <link rel="manifest" href="site.webmanifest">
 ```
 
@@ -132,7 +133,7 @@ The shortcut icons should be put in the root directory of your site.
 HTML5 Boilerplate comes with a default set of icons (include favicon and one
 Apple Touch Icon) that you can use as a baseline to create your own.
 
-Please refer to the more detailed description in the [Extend section](extend.md)
+Please refer to the more detailed description in the [Extend section](docs/extend.md)
 of these docs.
 
 ### The Content Area

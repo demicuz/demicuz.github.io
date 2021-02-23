@@ -1,5 +1,5 @@
 [HTML5 Boilerplate homepage](https://html5boilerplate.com) | [Documentation
-table of contents](TOC.md)
+table of contents](docs/TOC.mdOC.md)
 
 # Extend and customise HTML5 Boilerplate
 
@@ -537,6 +537,7 @@ Though the dimensions of the icon can vary between iOS devices and versions one
 `<head>` of the page is enough:
 
 ```html
+
 <link rel="apple-touch-icon" href="icon.png">
 ```
 
