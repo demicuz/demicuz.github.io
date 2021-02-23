@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-            name="description"
-            content="Denis Mazurak"
-    />
-    <title>Denis Mazurak</title>
-</head>
-<body>
-<h1>Oh hello there, I'm not using WhatsApp</h1>
-</body>
-</html>
+<head><meta charset="utf-8" /><meta content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" name="viewport" /><link href="/static/css/style.css" rel="stylesheet" type="text/css" /><link href="/static/img/logo.png" rel="shortcut icon" type="image/png" /><link href="/static/img/logo.png" rel="shortcut icon" sizes="192x192" /><link href="/static/img/logo.png" rel="apple-touch-icon" /><meta content="" name="apple-mobile-web-app-title" /><meta content="yes" name="apple-mobile-web-app-capable" /><meta content="yes" name="apple-touch-fullscreen" /><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" /><meta content="yes" name="mobile-web-app-capable" /><meta property="og:title" /><meta content="site" property="og:type" /><meta content="/static/img/logo.png" property="og:image" /><meta content="" property="og:description" /><title></title><meta content="" property="og:site_name" /><meta description="" /></head><body><div id="root"></div><script>window.logseq_db="[&quot;~#&apos;&quot;,null]"</script><script>window.logseq_state="{:ui/theme \"dark\", :ui/cycle-collapse :show-all, :ui/collapsed-blocks {#uuid \"6034e838-de7e-4849-b10d-d141408a54c5\" false, #uuid \"6034e796-84ba-4cf3-b200-53638a5d7a31\" false, #uuid \"6034e6cc-aa59-4846-9160-390fdff8b774\" false, #uuid \"6034e6cc-d9c8-4d82-a46d-4eb619978740\" false, #uuid \"6034e6ea-046f-4a02-abad-9bc677010db9\" nil, #uuid \"6034e7bf-2599-4366-b2fc-feb869446f6d\" false, #uuid \"602f672a-5a59-4736-b3e4-fb50587f7fb0\" nil, #uuid \"6034e7ac-c658-4738-b274-a0b678378c65\" nil, #uuid \"6034e78c-7ab2-4248-b7de-f6560ba0b431\" nil, #uuid \"6034e7a0-b3a8-425a-944f-23219cb55f57\" false, #uuid \"6034e6cc-323b-41f4-87ec-2df89d8f85f2\" false, #uuid \"6034e838-0974-404a-a98a-0c955da8ac26\" false, #uuid \"6034e757-ce28-465a-9981-71f5b7501dcb\" nil, #uuid \"6034e6ea-e49e-4007-83db-aa77da191a8a\" nil, #uuid \"6034e6e9-9488-473a-a5c7-448acda43824\" nil, #uuid \"6034e7d1-8aa1-47b5-b8b7-a96b0f2c2593\" nil, #uuid \"6034e7e7-1523-4394-a5c3-e6dbbb7b82d2\" false, #uuid \"6034e6ea-2e7c-4f42-b8f3-624d68ba3ee8\" nil, #uuid \"6034e757-3edf-49f8-92e1-c66b1c0b1fda\" false, #uuid \"6034e6ea-5ff9-4029-8310-e1976e20c4bc\" nil, #uuid \"6034e757-70e5-49d0-9149-e3ddd372d9d0\" nil, #uuid \"6034e7e7-51ba-441a-ac93-9fe11a2760f3\" false, #uuid \"6034e757-fb3e-4c65-8b11-b552194efe66\" nil, #uuid \"6034e7de-3800-4f4d-a73f-3a95fc924aec\" false, #uuid \"6034e6cc-43b9-4e62-8cd7-f93260a67394\" false, #uuid \"6034e7ad-d2bf-47b5-885d-7aae4f190f99\" false, #uuid \"6034e7d1-b2e4-4343-a04b-cf1bf89d8940\" nil, #uuid \"602f672a-8c1b-4e0c-b4da-39ea794bff38\" nil, #uuid \"6034e6ea-a8cb-43ed-8afe-f12771f1c94f\" nil, #uuid \"6034e7de-9386-4357-8876-116257fd3705\" nil, #uuid \"602f672a-b78b-4176-83e6-8b0dceb84e09\" nil, #uuid \"6034e7ad-aeed-44bb-ad06-466a66afe9a2\" nil, #uuid \"6034e6ea-3211-45db-967f-5afe374963b6\" nil, #uuid \"6034e7d2-9609-43f3-aa02-0fb0e63545e3\" nil, #uuid \"6034e7ac-2b5e-479d-9057-e498335b143d\" false, #uuid \"60345d0f-0161-4e2f-a6c4-9158f1109b2c\" nil, #uuid \"6034e6ea-94c8-409d-9328-aae79a91bc71\" false, #uuid \"6034e675-3713-45d7-b8dc-5c3633f5bd0d\" nil, #uuid \"6034e7d2-5caa-49dd-981b-6f54ffcaab1e\" nil, #uuid \"6034e7bf-9d8d-468b-b540-f7e1ac8ef412\" nil}, :ui/sidebar-collapsed-blocks {}, :ui/show-recent? false, :config {\"local\" {:git-pull-secs 60, :default-templates {:journals \"\"}, :macros {}, :commands [], :project {:name \"test-project\", :alias \"\", :twitter \"\", :description \"\"}, :hidden [], :default-queries {:journals [{:title \"🔨 NOW\", :query [:find (pull ?h [*]) :in $ ?start ?today :where [?h :block/marker ?marker] [?h :block/page ?p] [?p :page/journal? true] [?p :page/journal-day ?d] [(>= ?d ?start)] [(<= ?d ?today)] [(contains? #{\"NOW\" \"DOING\"} ?marker)]], :inputs [:14d :today], :result-transform (fn [result] (sort-by (fn [h] (get h :block/priority \"Z\")) result)), :collapsed? false} {:title \"📅 NEXT\", :query [:find (pull ?h [*]) :in $ ?start ?next :where [?h :block/marker ?marker] [?h :block/ref-pages ?p] [?p :page/journal? true] [?p :page/journal-day ?d] [(> ?d ?start)] [(< ?d ?next)] [(contains? #{\"NOW\" \"LATER\" \"TODO\"} ?marker)]], :inputs [:today :7d-after], :collapsed? false}]}, :git-push-secs 10, :git-auto-push true, :journal-basis \"daily\"}}}"</script><script type="text/javascript">// Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))</script><script src="/static/js/highlight.min.js"></script><script src="/static/js/interact.min.js"></script><script src="/static/js/publishing/main.js"></script></body>
