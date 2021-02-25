@@ -4,7 +4,7 @@
   "description": "",
   "keywords": "",
   "license": "",
-  "author": "",
+  "author": "Denis Mazurak",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
