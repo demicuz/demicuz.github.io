@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Posts by Denis Mazurak</title>
-    <link>http://192.168.1.21:80/categories/</link>
+    <link>https://demicuz.github.io/categories/</link>
     <description>Recent content in Categories on Posts by Denis Mazurak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://192.168.1.21:80/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://demicuz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

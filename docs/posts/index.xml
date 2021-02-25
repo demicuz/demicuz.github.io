@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Posts by Denis Mazurak</title>
-    <link>http://192.168.1.21:80/posts/</link>
+    <link>https://demicuz.github.io/posts/</link>
     <description>Recent content in Posts on Posts by Denis Mazurak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Feb 2021 18:07:49 +0300</lastBuildDate><atom:link href="http://192.168.1.21:80/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 18:07:49 +0300</lastBuildDate><atom:link href="https://demicuz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://192.168.1.21:80/posts/my-first-post/</link>
+      <link>https://demicuz.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 24 Feb 2021 18:07:49 +0300</pubDate>
       
-      <guid>http://192.168.1.21:80/posts/my-first-post/</guid>
+      <guid>https://demicuz.github.io/posts/my-first-post/</guid>
       <description>Hello, I&amp;rsquo;m a first port in this series of one post. My name is Denis Mazurak.
 And the website gets updated pretty quickly.
 Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content. Let&amp;rsquo;s add more content.</description>
