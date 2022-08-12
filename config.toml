@@ -1,6 +1,6 @@
 baseURL = "https://demicuz.github.io/"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+# googleAnalytics = "G-XYFD95KB4J"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
@@ -8,7 +8,7 @@ ignoreFiles = [
     "/content/private/*",
 ]
 summaryLength = 20
-paginate = 10
+paginate = 20
 enableGitInfo = true
 
 [markup]
@@ -32,3 +32,4 @@ enableGitInfo = true
         publishDate = ["publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true
+        hardWraps = true
