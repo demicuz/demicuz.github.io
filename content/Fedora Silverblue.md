@@ -1,0 +1,5 @@
+---
+title: "Fedore Silverblue"
+---
+
+[[Fedora]]
