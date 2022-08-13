@@ -2,7 +2,7 @@
 title: "Mutex"
 ---
 
-A special object that controls thread access to shared resources to prevent [[Race condition|data race]]. Only one process at a time is allowed to read/write. Mutexes have some downsides, see [[#Links]].
+A special object that controls thread access to shared resources to prevent [[Race condition|data race]]. Only one process at a time is allowed to read/write. Mutexes have some downsides, see.
 
 ### Notes
 If one process only writes to some variable, and another only reads from it, you don't need to use mutex for this. Because only read and only write are atomic operations.

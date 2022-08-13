@@ -4,7 +4,9 @@ aliases: [coding]
 tags: [MOC]
 ---
 
-> Code is a medium, like paint is to an artist. [Yup](https://github.com/ceciliamay).
+> Code is a medium, like paint is to an artist.
+> [*Random person's status*](https://github.com/ceciliamay).
+
 ### General
 - [[Learnign how to code]]
 

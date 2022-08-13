@@ -13,7 +13,7 @@ gapminder.org
 
 ### Blogs
 - https://dyakonov.org/ #toexplore/stats 
-- [[Awesmoe dataviz#^0bad3a|Awesome dataviz > Flowing Data]]
+- [[Awesomoe dataviz#^0bad3a|Awesome dataviz > Flowing Data]]
 
 ### Videos
 [[Hans Rosling - The best stats you've ever seen - TED Talk]]
@@ -24,4 +24,4 @@ gapminder.org
 - [SNStatComp/awesome-official-statistics-software: An awesome list of statistical software for creating and accessing official statistics](https://github.com/SNStatComp/awesome-official-statistics-software)
 
 ### Related
-[[Awesmoe dataviz]]
+[[Awesomoe dataviz]]

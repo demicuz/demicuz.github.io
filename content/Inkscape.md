@@ -8,7 +8,7 @@ A vector graphics editor.
 - `Ctrl + Shift + W` - swatches panel
 - `Ctrl + Shift + A` - alignment options
 - `Alt + D` - create a clone
-- `Ctrl (+ Shift) + G` - group (ungroup) objects. See [[#^a3217c|guide]] for more details
+- `Ctrl (+ Shift) + G` - group (ungroup) objects
 - `Space` while dragging or rotating an object creates a duplicate
 - `Shift + click` on a rotation point resets its position
 
@@ -25,5 +25,5 @@ A vector graphics editor.
 - [Inkscape round corners | Learn how to work with round corners?](https://www.educba.com/inkscape-round-corners/)
 
 ### Resources
-- [Inkscape Beginner's Guide](https://inkscape-manuals.readthedocs.io/en/latest/index.html) ^a3217c
+- [Inkscape Beginner's Guide](https://inkscape-manuals.readthedocs.io/en/latest/index.html)
 - [Inkscape keyboard and mouse reference](https://inkscape.org/en-gb/doc/keys-1.1.x.html)

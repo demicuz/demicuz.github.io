@@ -1,5 +1,1 @@
----
-title: "Home"
----
-
-Here we go!
+Hi! I'm Denis Mazurak, and this is my public notes website.

@@ -1,5 +1,5 @@
 ---
-title: "School 21.md"
+title: "School 21"
 ---
 
 ### Useful pages
