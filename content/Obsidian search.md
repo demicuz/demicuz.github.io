@@ -1,5 +1,7 @@
 ---
-title: "Search in Obsidian.md"
+title: "Obsidian search"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 ## Search syntax

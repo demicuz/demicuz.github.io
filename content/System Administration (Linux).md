@@ -1,9 +1,10 @@
 ---
 title: "System Administration (Linux)"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
-- [How To Use `systemctl` to Manage Systemd Services and Units](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
-- [[UNIX (Linux) processes]]
+- [[UNIX processes]]
 - [[UNIX signals]]
 - [[Managing users in Linux]]
 - [[Managing permissions in Linux]]

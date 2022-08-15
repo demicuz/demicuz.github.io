@@ -2,6 +2,8 @@
 title: "C (language)"
 aliases: [C]
 tags: [coding/language]
+date: "2022-08-15"
+lastmod: "2022-08-15"
 ---
 
 ### Resources
@@ -34,3 +36,4 @@ char buffer[100] = {0};
 ```
 - `extern` keyword
 - `static` and `inline` functions
+- automatic header generation, maybe with `makeheaders`

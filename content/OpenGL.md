@@ -1,5 +1,7 @@
 ---
 title: "OpenGL"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
-tsogind has a template, look it up.
+tsoding has a GLFW template, look it up.

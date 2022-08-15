@@ -1,0 +1,29 @@
+---
+date: "2022-08-14"
+lastmod: "2022-08-14"
+---
+- Settings
+	- Editor
+		- Enable Spell Checker
+		- Enable heading and indent folding
+	- Files & Links
+		- Move deleted files to `.trash` folder
+		- Detect all file extensions
+		- Save attachments in `attachments` folder
+	- Hotkeys
+		- Added
+			- Delete current file - `Alt + Delete`
+			- Toggle right sidebar - `Ctrl + '`
+			- Toggle left sidebar - `Ctr' + ;`
+			- Move file to another folder - `Ctrl + M`
+			- Toggle fold on the current line - `Alt + F`
+			- Daily notes
+				- Open today's daily note - `Alt + D`
+				- Open previous daily note - `Ctrl + Alt + D`
+				- Open next daily note - `Shift + Alt + D`
+			- Flashcards
+				- `Ctrl + Alt + C` - generate for the current file
+		- Changed
+			- `Ctrl + N` creates a zettelkasten note
+		- Removed
+			- `Ctrl + Shift + N` in [[Note Refactor plugin]]

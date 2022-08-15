@@ -8,6 +8,9 @@ Schedule scripts on Linux.
 - `crontab -e` - create or modify jobs. If you want to run them as root, you have to use `sudo` or be logged in as root.
 - `crontab -l` - list jobs for current user
 
+### See also
+- [[anacron]]
+
 ### Links
 - [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
 - [crontab.guru](https://crontab.guru/every-10-minutes)

@@ -1,5 +1,7 @@
 ---
 title: "kitty"
+date: "2022-08-15"
+lastmod: "2022-08-15"
 ---
 
 A cool terminal emulator!
@@ -19,11 +21,11 @@ A cool terminal emulator!
 **Windows:**
 - New window: `ctrl+shift+enter`
 - Close window: `ctrl+shift+w`
-- Next window: `ctrl+shift+]`
-- Previous window: `ctrl+shift+[`
+- Next window: `ctrl+shift+]` or `ctrl+alt+→`
+- Previous window: `ctrl+shift+[` or `ctrl+alt+←`
 
 ### Notes
-It's better to install Kitty in a folder accessible to all users. And edit `visudo` to preserve `TERMINFO` env variable, because backspace and other keys won't work properly.
+It's better to install Kitty in a folder accessible to all users (like `/opt`). And edit `visudo` to preserve `TERMINFO` env variable, because backspace and other keys won't work properly.
 
 `sudo apt install kitty-terminfo` does smth on remote machines(?)
 

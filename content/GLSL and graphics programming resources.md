@@ -1,6 +1,8 @@
 ---
 title: "GLSL and graphics programming resources.md"
 tags: [list]
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 ### Resources
@@ -21,10 +23,10 @@ tags: [list]
 - [[OpenGL]]
 
 ### Programs
-- http://glslsandbox.com/ ==new==
+- http://glslsandbox.com/
 	- [with DAT gui](http://www.backtothepixel.com/apps/GLSLSandboxHack/index.html#XQAAAQCQAQAAAAAAAAARmkjGWrWuwfkQ94Df3-Rz5ZmiEakDBKtqpYGzQrNE205xCZvreTUrPEQsje6XD_tNBUSR41a09ViCwvNVQ5P-ZmLPLDSKP1HczntXYCkLvFwbkXFGVxaRA2gFuscEtMs2RZyeCB8HAOQ_BVYmDAQtUF4Cd3VcuERWpmBMHlVAB6gixoULSIQm4D8XdUxB2QlGLx1ybXFDR_UC08wVwFpGVKsgObT1B6UV4hw2OPBSvidCWtC9NoWGax15AKT1euXBI1yzIRSGkTAjSs9seAof8LXe59SYHiEtpz2PeaS1pziErcYyd7JDJH0JkqAhzXW9yFEFiRWx4OCojbr5XorJfSbpshB-Aivm_xG1YwA,)
 - [[TouchDesigner]]
-- [[Material Maker]]
+- [[Material Maker]] - compose shaders, super good!
 - [[cables.gl]]
 - [[ShaderED]]
 - [[Shadertoy]]

@@ -1,8 +1,12 @@
 ---
 title: "My OS"
+date: "2022-08-15"
+lastmod: "2022-08-15"
 ---
 
 #todo rewrite this stuff. I use [[Fedora]] now.
+
+[[Software I use]]
 
 ### Things I've changed in my [[Kubuntu]]
 #### Automatic setting of max CPU temp

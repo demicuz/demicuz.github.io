@@ -1,5 +1,7 @@
 ---
 title: "Functional programming"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 ### Languages
@@ -7,6 +9,10 @@ title: "Functional programming"
 - [[Lisp]]
 - [[Erlang]], [[Elixir]]
 - [[Elm]]
+- [[Haskell]]
+- [[OCaml]]
+	- [[ReasonML]]
+		- [[Revery]]
 - [[Javascript]], lol
 
 ### Articles #toexplore/coding 

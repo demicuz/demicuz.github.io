@@ -1,5 +1,7 @@
 ---
 title: "Linux"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 ### Useful stuff
@@ -19,4 +21,4 @@ title: "Linux"
 *Maybe move this to somewhere else?*
 [[Useful terminal and shell commands]]
 ##### Controlling processes
-You can launch some process with `&` in the end to start it in the background, like `yes &`. Or press `Ctrl + Z` to pause current process and move it to the background, then `bg` to continue it. See [[UNIX (Linux) processes]].
+You can launch some process with `&` in the end to start it in the background, like `yes &`. Or press `Ctrl + Z` to pause current process and move it to the background, then `bg` to continue it. See [[UNIX processes]].

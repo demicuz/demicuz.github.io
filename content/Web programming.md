@@ -1,9 +1,12 @@
 ---
 title: "Web programming"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 - [[HTML]]
 - [[CSS]]
+- [[Awesome Web]]
 
 ### Resources
 - [Дока - документация для разработчиков на человеческом языке](https://doka.guide/)

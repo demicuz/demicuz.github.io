@@ -2,13 +2,14 @@
 title: "Programming and CS"
 aliases: [coding]
 tags: [MOC]
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 > Code is a medium, like paint is to an artist.
 > [*Random person's status*](https://github.com/ceciliamay).
 
-### General
-- [[Learnign how to code]]
+I have a love-hate relationship with programming. It allows you to create cool stuff and make moneys, but it's totally [[Programming is not a natural human activity|not a natural human activity]].
 
 ### Languages
 - [[GLSL]]
@@ -18,17 +19,19 @@ tags: [MOC]
 See also #coding/language. 
 
 ### Concepts
-- [[Bit manipulation]]
 - [[Programing paradigms]]
 
-### Websites and blogs
+### Websites, blogs and stuff
 - [Julia Evans](https://jvns.ca/)
 	- [Blogs I like - Julia Evans](https://jvns.ca/blogroll/)
 - [[Awesome Web#Blogs]]
-- [Baeldung](https://www.baeldung.com/)
+- YouTube
+	- Tsoding Daily
+	- On the code again (mostly Clojure)
 
 ### Related
 - [[IT Job]]
+- [[Learning how to code]]
 
 ### #todo/coding 
 - [Code Faster with AI Code Completions | Tabnine](https://www.tabnine.com/) ^cek4hwm

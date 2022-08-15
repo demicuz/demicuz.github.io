@@ -1,5 +1,7 @@
 ---
 title: "Obsidian workflows"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 - [[Jamie Todd Rubin - How I Capture Reading Notes in Obsidian]]
@@ -10,7 +12,7 @@ title: "Obsidian workflows"
 - [[Robert Haisfield]] [about using search and queries in Obsidian](https://twitter.com/RobertHaisfield/status/1379122192537899010?s=09). Also useful things in replies.
 
 ### Notes
-##### Note categories ^y2ezqwa
+##### Note categories
 There are three ways to categorize notes which I can think of.
 
 **Folders**, but they pollute quick switching bar. Also, what if you have two categories that intersect?

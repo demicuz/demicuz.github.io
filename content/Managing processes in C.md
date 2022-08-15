@@ -1,8 +1,10 @@
 ---
 title: "Managing processes in C"
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
-[[UNIX (Linux) processes]]
+[[UNIX processes]]
 ### Functions
 `sigsuspend(const sigset_t *mask)` - tbd
 `fork()`, `wait()`, etc. - see [[pipex]]

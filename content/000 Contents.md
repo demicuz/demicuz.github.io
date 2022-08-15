@@ -1,6 +1,8 @@
 ---
 title: "000 Contents.md"
 tags: [MOC]
+date: "2022-08-14"
+lastmod: "2022-08-14"
 ---
 
 #todo Make this thing more "whole"
@@ -26,4 +28,3 @@ Personal:
 - [[Obsidian]]
 - [[Blogs]]
 - [[Books]]
-- [[Cooking]]

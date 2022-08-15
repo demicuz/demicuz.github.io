@@ -1,5 +1,7 @@
 ---
 title: "Useful terminal and shell commands"
+date: "2022-08-15"
+lastmod: "2022-08-15"
 ---
 
 - [[Terminal tools]]

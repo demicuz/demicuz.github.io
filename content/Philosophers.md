@@ -2,11 +2,6 @@
 title: "Philosophers"
 ---
 
-`./philo 50 403 200 200` - stays alive. `402` dies.
-Should I unlock a mutex if thread exits anyway? UPD: well, unlocking a mutex costs basically nothing, so it won't harm.
-
-Added mutex for `thinking`, now `404` dies, `405` lives.
-
 [[Multi-threaded programming]], yay!
 
 ### Useful
@@ -22,6 +17,7 @@ Added mutex for `thinking`, now `404` dies, `405` lives.
 - what are coroutines?
 - how fast are mutexes in c when contention?
 - how to debug a multi-threaded program
+- producer-consumer stuff, though I don't really know if it's useful here
 
 ### Notes
 It's not necessary to use a [[Mutex]] for `printf` when you have only one process running, because it's thread-safe (I think). See [[#Links]] - how to use `printf` with multiple threads. Also [[#Output control]].

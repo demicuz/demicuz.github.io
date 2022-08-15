@@ -1,9 +1,11 @@
 ---
 title: "Material Maker"
 tags: [tool, graphics]
+date: "2022-08-15"
+lastmod: "2022-08-15"
 ---
 
-A program used to create shader materials for games (mainly for games). Its node-based approach allows to quickly put up some cool-looking thing. But lack of animation knobs makes it difficult to produce animations. I believe I can create custom nodes to compensate for this.
+A program used to create shader materials. Its node-based approach allows to quickly put up some cool-looking thing. But lack of animation knobs makes it difficult to produce animations. I believe I can create custom nodes to compensate for this.
 
 ### To discover
 - [[Godot & Material Maker's GLSL]]

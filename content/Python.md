@@ -25,10 +25,10 @@ But in Python:
 -1
 ```
 
+Aaand for Python's `Decimal` it's different. So yeah, more ways to [[Shooting yourself in the foot|shoot yourself in the foot]].
+
 ### #todo 
 - [Combinations - Rosetta Code](https://rosettacode.org/wiki/Combinations#Python) (Python example). Really worth attention. Didn't know `[i + 1:]` syntax is valid
-
-Aaand for Python's `Decimal` it's different. So yeah, more ways to [[Shooting yourself in the foot|shoot yourself in the foot]].
 
 ### Links
 - [Learn Python - Free Interactive Python Tutorial](https://learnpython.org/)

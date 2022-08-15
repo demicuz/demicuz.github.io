@@ -1,14 +1,13 @@
 ---
 title: "Fedora"
+date: "2022-08-15"
+lastmod: "2022-08-15"
 ---
 
 A [[Linux]] distro.
 
 - [[Fedora issues]]
 - [[dnf]]
-
-Maybe install RPM Fusion.
-Also can somehow speed up `dnf`.
 
 [Some guy's](https://www.reddit.com/r/Fedora/comments/vzmck8/comment/ig9bgyt) installs for proper video playback:
 ```shell
