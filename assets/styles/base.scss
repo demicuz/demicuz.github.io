@@ -212,6 +212,10 @@ article {
   list-style: none;
   padding-left: 0;
 
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+
   & .meta {
     margin: 1.5em 0;
     & > h1 {
