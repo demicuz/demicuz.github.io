@@ -19,6 +19,9 @@ html {
 
 .singlePage {
   padding: 2rem 10px;
+  @media all and (max-width: 650px) {
+    padding: 0 10px 2rem;
+  }
 }
 
 
@@ -30,7 +33,10 @@ body {
   box-sizing: border-box;
   background-color: var(--light);
 
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  @media all and (max-width: 650px) {
+    font-size: 1rem;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, thead {
