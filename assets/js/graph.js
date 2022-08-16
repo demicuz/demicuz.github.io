@@ -200,7 +200,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .duration(200)
         .attr('opacityOld', d3.select(this.parentNode).select('text').style("opacity"))
         .style('opacity', 1)
-        .style('font-size', bigFont+'em')
+        .style('font-size', bigFont+'rem')
         .attr('dy', d => nodeRadius(d) + 20 + 'px') // radius is in px
     })
     .on("mouseleave", function (_, d) {
@@ -218,7 +218,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       .transition()
       .duration(200)
       .style('opacity', d3.select(this.parentNode).select('text').attr("opacityOld"))
-      .style('font-size', fontSize+'em')
+      .style('font-size', fontSize+'rem')
       .attr('dy', d => nodeRadius(d) + 8 + 'px') // radius is in px
     })
     .call(drag(simulation))
@@ -232,7 +232,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .text((d) => content[d.id]?.title || d.id.replace("-", " "))
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
-    .style('font-size', fontSize+'em')
+    .style('font-size', fontSize+'rem')
     .raise()
     .call(drag(simulation))
 
