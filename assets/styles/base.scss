@@ -377,7 +377,7 @@ header {
   #search-icon {
     background-color: var(--lightgray);
     border-radius: 4px;
-    height: 2em;
+    padding: 0.5em 0.3em;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -389,8 +389,8 @@ header {
 
   & svg {
     cursor: pointer;
-    width: 18px;
-    min-width: 18px;
+    width: 1.2em;
+    min-width: 1.2em;
     margin: 0 0.5em;
 
     &:hover .search-path {
