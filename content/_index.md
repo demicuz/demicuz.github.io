@@ -15,6 +15,7 @@ You might want to take a look at:
 - [[Web programming]]
 - [[_ Graphics programming]]
 - [[System Administration (Linux)]]
+- [[Software I use]]
 - [[_ Learning]]
 
 ### Tips

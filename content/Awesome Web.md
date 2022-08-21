@@ -1,6 +1,8 @@
 ---
 title: "Awesome Web"
 tags: [awesome]
+date: "2022-08-19"
+lastmod: "2022-08-19"
 ---
 
 - [Glitch](https://glitch.com/) - build websites and stuff. Seems to be like [[Heroku]], but more toy-ish.
@@ -24,6 +26,9 @@ tags: [awesome]
 ### Frameworks
 - [[Bootstrap]]
 - [[Vue]]
+
+### CMSs
+- [A list of deadless CMSs](https://jamstack.org/headless-cms/)
 
 ### Related
 - [[Web programming]]

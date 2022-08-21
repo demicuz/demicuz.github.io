@@ -1,5 +1,7 @@
 ---
 title: "Sublime Text"
+date: "2022-08-17"
+lastmod: "2022-08-17"
 ---
 
 - [[How Sublime Text was built]]
@@ -41,8 +43,9 @@ There are syntax-specific settings, which is nice.
 		}
 	}
 }
-
 ```
+
+See also [[clangd]]
 - [Customization - LSP for Sublime Text](https://lsp.sublimetext.io/customization/)
 
 For Python, I installed LSP-pylsp **and** LSP-pyright. Used config from LSP-pylsp README.

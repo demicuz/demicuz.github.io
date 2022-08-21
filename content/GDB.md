@@ -1,8 +1,11 @@
 ---
 title: "GDB"
+date: "2022-08-17"
+lastmod: "2022-08-17"
 ---
 
 ### See also
+- [[GDB pretty-printing]]
 - [[LLDB]]
 
 ### General
@@ -21,6 +24,7 @@ title: "GDB"
 - `set foo=bar` - change variables at runtime! Isn't that awesome? But with great power comes great responsibility
 
 `ctrl + x, o` to switch views (useful in tui mode).
+
 ### Useful
 - [gdbgui](https://www.gdbgui.com/)
 - [voltron: A hacky debugger UI for hackers](https://github.com/snare/voltron)

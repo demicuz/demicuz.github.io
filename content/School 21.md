@@ -1,5 +1,7 @@
 ---
 title: "School 21"
+date: "2022-08-21"
+lastmod: "2022-08-21"
 ---
 
 ### Useful pages

@@ -1,6 +1,9 @@
 ---
 title: "Intellij"
+date: "2022-08-17"
+lastmod: "2022-08-17"
 ---
+Super-intelligent and super-bloated IDE. Or a family of IDEs.
 
 ### Importing projects
 Is pain! See [this](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000097290-How-to-setup-Django-for-an-existing-project)! Like... WTF?!
