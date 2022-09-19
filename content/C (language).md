@@ -13,6 +13,7 @@ lastmod: "2022-08-15"
 - [[C tricks]]
 - [[Dynamic memory allocation in C]]
 - [[Pointers in C]]
+- [[struct in C]]
 - [[Makefile]]
 - [[C compilation and debugging]]
 - [[Building C]]

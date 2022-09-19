@@ -13,6 +13,8 @@ Why do `cw` and `ce` act the same way, but `dw` and `de` not?
 `A` - append to the end of the line
 `\c` - escape char for case-insensitive search
 `<C-y>`, `<C-e>` - scroll up/down
+`=` - format, e.g. `=ap` - format inside of a 
+`o` in visual mode - jump to the beginning/end of a selection
 
 ### Commands
 `ge` - `e` but backwards

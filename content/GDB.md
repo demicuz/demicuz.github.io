@@ -18,12 +18,16 @@ lastmod: "2022-08-17"
 - `step` or `s` to step into functions. `finish` to finish the stepped-into function
 - `backtrace` or `bt` for backtrace
 - `ctrl + x, 1` or `tui enable` to enable text text user interface.
-- `br` to set breakpoints.
+- `br` to set breakpoints. `br some_func` or `br some_file.c:42`
 - `info args` for info about program arguments, `info breakpoints` for breakpoints
 - `set follow-fork-mode child` - follow the forked process instead of parent when using `fork()`
 - `set foo=bar` - change variables at runtime! Isn't that awesome? But with great power comes great responsibility
+- `call <expr>` - run arbitrary code. Beware of state mutation, as with `set`.
 
+**Misc**
 `ctrl + x, o` to switch views (useful in tui mode).
+`set print pretty on` - to print structs in a more readable way.
+`print *array@size` to print arrays.
 
 ### Useful
 - [gdbgui](https://www.gdbgui.com/)

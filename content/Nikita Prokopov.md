@@ -1,6 +1,8 @@
 ---
 title: "Nikita Prokopov"
 aliases: [tonsky]
+date: "2022-09-06"
+lastmod: "2022-09-06"
 ---
 
-Has a nice telegram channel.
+Does Clojure stuff. Has a nice telegram channel.

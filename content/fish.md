@@ -24,7 +24,12 @@ Navigating folders:
 Install fisher, a plugin manager. It's *the only* way to manage plugins. Don't even touch oh-my-fish.
 
 ### Variables
-To make environment [variables](https://fishshell.com/docs/current/language.html#variables) available to other programs (and shells) that `fish` launches, you should [export](https://fishshell.com/docs/current/language.html#variables-export) them.
+To make environment [variables](https://fishshell.com/docs/current/language.html#variables) available to other programs (and shells) that `fish` launches, you should [export](https://fishshell.com/docs/current/language.html#variables-export) them. Like this:
+```shell
+set -gx DENO_INSTALL "/home/psharen/.deno"
+```
+
+You should add this to `config.fish` to make it persistent. If you want add something to `PATH`, use `fish_add_path` instead.
 
 ### Links
 - [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish)

@@ -16,6 +16,7 @@ See also:
 
 ### Useful
 - AstroNvim
+- [Зачем использовать vim | Hexlet Guides](https://guides.hexlet.io/ru/vim/)
 - [Simple .vimrc or init.vim for nvim (neovim)](https://gist.github.com/mendeza/e0c4fbb5592ad52f5eca77ed5873a46b)
 - [Learn Vim Progressively](https://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 - [scroll - How to move screen without moving cursor in Vim?](https://stackoverflow.com/questions/3458689)

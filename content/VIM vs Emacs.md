@@ -11,4 +11,4 @@ I haven't used [[Emacs]] at all, and [[VIM]] for a little bit. As for the editor
 
 But Emacs has cool REPL support, Org mode and other stuff, so I'll definitely try it out some time. Learning editors is definitely not a high priority of learning stuff for me. They're just tools to get the job done. But I think that [[structure editors]] have a big future. They're just extremely hard to design.
 
-UPD: I have used (tried to use) Emacs for like two hours and ugh... What a painful new user experience. I just wanted to write some Clojure, but ended up going down an endless pit of navigation commands, configuring addons, etc, etc. The learning curve is insane. And that ancient ELisp... ugh. I'll better not open this Pandora's box. It will suck out all my time.
+UPD: I have been using (was trying to use) Emacs for like two hours and ugh... What a painful new user experience. I just wanted to write some Clojure, but ended up going down an endless pit of navigation commands, configuring addons, etc, etc. The learning curve is insane. And that ancient ELisp... ugh. I'll better not open this Pandora's box. It will suck out all my time.

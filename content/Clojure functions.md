@@ -1,9 +1,10 @@
 ---
 title: "Clojure functions"
+date: "2022-09-06"
+lastmod: "2022-09-06"
 ---
 
-### #todispatch/coding 
-###### Walk example
+`walk` example:
 ```Clojure
 ;; from -> clojuredocs
 user=> (def c 5) user=> (-> c (+ 3) (/ 2) (- 1)) 3

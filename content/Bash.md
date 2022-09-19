@@ -1,6 +1,8 @@
 ---
 title: "Bash"
 aliases: [Shell]
+date: "2022-08-24"
+lastmod: "2022-08-24"
 ---
 
 - [[Redirection in Bash]]
@@ -14,6 +16,13 @@ echo "Memory Usage: $uram/${tram}MB ($pram%)"
 - [bash - Repeatedly run a shell command until it fails?](https://stackoverflow.com/questions/12967232)
 
 Semicolon `;` is not needed at the end of lines.
+You can set strings to interpret escape sequences with `$''`:
+```shell
+$ echo $'Name\tAge\nBob\t24\nMary\t36'
+Name    Age
+Bob     24
+Mary    36
+```
 
 ### Setting env variables
 Use `sudo -H vim /etc/environment`. [Link](https://askubuntu.com/questions/58814).

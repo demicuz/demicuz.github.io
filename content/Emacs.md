@@ -17,3 +17,7 @@ Before doing anything in Emacs, [disable freakin system beep](https://wiki.archl
 ### Extensions
 - https://github.com/minad/corfu
 - [Imenu Mode](https://www.emacswiki.org/emacs/ImenuMode#toc11)
+
+### Pre-made configs
+- Emacs Prelude
+- Corgi Emacs (for [[Clojure]])

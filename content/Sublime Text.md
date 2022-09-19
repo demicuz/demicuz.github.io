@@ -60,3 +60,4 @@ Tip: you can [override](https://www.sublimetext.com/docs/packages.html#overridin
 - [Sublime Build Systems - YouTube](https://www.youtube.com/playlist?list=PLGfKZJVuHW91WyVIitRhcTPD1PTFIPsia)
 - [Chokidar-based file watcher implementation for LSP](https://github.com/sublimelsp/LSP-file-watcher-chokidar) #todo/coding 
 - [Usage · rizsotto/Bear Wiki](https://github.com/rizsotto/Bear/wiki/Usage#build-tools)
+- [Change default snippet](https://forum.sublimetext.com/t/solved-change-default-snippet/52441) - overriding snippets.

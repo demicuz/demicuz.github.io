@@ -9,19 +9,16 @@ A [[Lisp]]. Clojure compiler is a different thing, as Clojure is a hosted langua
 
 #todo should restructure this note.
 
-### Useful stuff
 - [[Clojure resources|Resources]]
 - [[Clojure shippets|Snippets]]
-- [[Clojure cool repos|Cool repos]]
+- [[Clojure tools and libraries|Tools and libraries]]
 - [[Clojure functions|Functions]]
+- [[Clojure learning log]]
 
 Also notes in [[Logseq]]
 
-### Random syntax things
-Not equal operator is `not=`, not `!=`. `!=` has some different meaning.
+### Other stuff
+- [[Clojure history of creation]]
 
-### Links
-- [Tools and libraries - Scicloj](https://scicloj.github.io/docs/resources/libs/)
-
-##### Talks, interviews
+### Talks, interviews
 - [АйТиБорода!](https://www.youtube.com/watch?v=920LwG5_QfM&t=7155s)

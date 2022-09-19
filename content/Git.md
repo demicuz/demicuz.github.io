@@ -1,5 +1,7 @@
 ---
 title: "Git"
+date: "2022-08-28"
+lastmod: "2022-08-28"
 ---
 
 A version control system. Maybe not the best, but the most popular.
@@ -34,8 +36,18 @@ initial commit
 
 Use `git cat-file commit <some-commit>` to view it. Yes, there is an **author**, and a **committer**. See more [here](https://ivan.bessarabov.com/blog/git-author-committer).
 
+### Submodules
+```bash
+git submodule add git@github.com:johndoe/leftpad # add a submodule
+git submodule update --remote --merge # to update submodules
+```
+
 ### Links
+**How-to's**
 - [oh shit! I want to split my commit into 2 commits!](https://wizardzines.com/comics/oh-shit-split-commit/)
 - [Five Useful Git Tips - adit.io](https://adit.io/posts/2013-08-16-five-useful-git-tips.html)
 - [How to create development branch from master on GitHub](https://stackoverflow.com/questions/39478482)
 - [How do I squash two non-consecutive commits?](https://stackoverflow.com/questions/3921708)
+
+**Git as a concept**
+- [Reinventing Git interface](https://tonsky.me/blog/reinventing-git-interface/) by [[Nikita Prokopov]]

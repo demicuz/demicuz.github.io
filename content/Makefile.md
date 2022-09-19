@@ -37,7 +37,7 @@ It's **not** like `/usr/bin/basename`. It takes a path and strips away file exte
 
 ### Change file extensions
 Use `$(SRC:.c=.o)` syntax. `SRC` is a list of files, separated by space.
-[ How to change the extension of each file in a list with multiple extensions in GNU make?](https://stackoverflow.com/questions/12069457/)
+[How to change the extension of each file in a list with multiple extensions in GNU make?](https://stackoverflow.com/questions/12069457/)
 
 ### vpath
 Tell `make` where exactly to search for files. Probably archaic, like many things in Make.

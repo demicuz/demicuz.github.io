@@ -1,5 +1,7 @@
 ---
 title: "Memory leaks"
+date: "2022-08-28"
+lastmod: "2022-08-28"
 ---
 
 ### Useful Valgrind flags
@@ -20,7 +22,7 @@ In short - not needed for individual programs. All modern OS'es recycle memory a
 BUT. If you use your program in a library or some other program, you should take care of resources properly. Like, clean up all the memory, close opened files and sockets.
 
 ### Links
-- [How do I use valgrind to find memory leaks?](https://stackoverflow.com/questions/5134891/)
+- [How do I use valgrind to find memory leaks?](https://stackoverflow.com/questions/5134891/) - has some useful advices
 - [Still reachable in valgrind](https://stackoverflow.com/questions/4406402)
 - [c - Still Reachable Leak detected by Valgrind](https://stackoverflow.com/questions/3840582)
 - [When you exit a C application, is the malloc-ed memory automatically freed?](https://stackoverflow.com/questions/2213627)
