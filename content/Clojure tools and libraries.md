@@ -1,11 +1,8 @@
 ---
-title: "Clojure cool repos"
+title: "Clojure tools and libraries"
 date: "2022-09-06"
 lastmod: "2022-09-06"
 ---
-
-### Related
-- [[Clojure development environment]]
 
 - [Waqi: REPL-driven data visualizations with Clojure and Vega/Vega-Lite in the browser](https://github.com/applied-science/waqi)
 - [Tools and libraries - Scicloj](https://scicloj.github.io/docs/resources/libs/)
@@ -18,3 +15,6 @@ lastmod: "2022-09-06"
 
 ### REPL
 - [Clojure REPLs | The Ultimate Guide To Clojure REPLs Guide](https://lambdaisland.com/guides/clojure-repls/clojure-repls#org259d775)
+
+### Related
+- [[Clojure development environment]]

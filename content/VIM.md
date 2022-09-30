@@ -7,12 +7,16 @@ lastmod: "2022-08-16"
 
 - [[Learning VIM]]
 - [[VIM vs Emacs]]
+- [[Prebuilt VIM configs]]
 
 ### Smooth scrolling
 Why that's not a thing in VIM? Fuck you, that's why. A fundamental limitation of terminal-based apps. If you want that, use [[neovide]]. Or [Onivim](https://v2.onivim.io/). Or other frontends.
 
 See also:
 - [How can I change the scroll wheel behavior in vim, so that it scrolls instead of moving the cursor?](https://superuser.com/questions/351972/)
+
+### Exiting insert mode (entering normal mode)
+- [A Better Mapping to Leave Insert Mode than jk](https://jdhao.github.io/2020/11/23/neovim_better_mapping_for_leaving_insert_mode/)
 
 ### Useful
 - AstroNvim
