@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reseter.css">
+  <title>Lab 2 - CSS Grid</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <a href="" class="header__logo"></a>
+
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__item"><a href="" class="header__link">Ссылка раз</a></li>
+          <li class="header__item"><a href="" class="header__link">Ссылка два</a></li>
+          <li class="header__item"><a href="" class="header__link">Ссылка три</a></li>
+          <li class="header__item"><a href="" class="header__link">Ссылка четыре</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <aside class="sidebar">
+        <nav class="sidebar__menu">
+          <ul class="sidebar__list">
+            <li class="sidebar__item"><a href="" class="sidebar__link">Ссылка раз</a></li>
+            <li class="sidebar__item"><a href="" class="sidebar__link">Ссылка два</a></li>
+            <li class="sidebar__item"><a href="" class="sidebar__link">Ссылка три</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="content">
+        <form action="" class="form">
+          <label for="name" class="form__label">
+            <span>Имя</span>
+            <input type="text" id="name" name="name" class="form__input" placeholder="John Doe">
+          </label>
+
+          <label for="email" class="form__label">
+            <span>Почта</span>
+            <input type="email" id="email" name="email" class="form__input" placeholder="example@gmail.com">
+          </label>
+
+          <label for="phone" class="form__label">
+            <span>Телефон</span>
+            <input type="tel" id="phone" name="phone" class="form__input" placeholder="88005553535">
+          </label>
+
+          <label for="" class="form__label">
+            <span>Страна</span>
+            <select name="" id="" class="form__select">
+              <option>Россия</option>
+              <option>Япония</option>
+              <option>Аргентина</option>
+            </select>
+          </label>
+
+          <label for="comment" class="form__label">
+            <span>Что вы делаете в моем холодильнике?</span>
+            <textarea name="comment" id="comment" class="form__textarea"></textarea>
+          </label>
+
+          <button class="form__button" type="submit">Отправить</button>
+        </form>
+
+        <div class="gallery">
+          <ul class="gallery__list">
+            <li class="gallery__item">
+              <img src="img/1.jpg" alt="">
+            </li>
+            <li class="gallery__item gallery__item_big">
+              <img src="img/2.jpg" alt="">
+            </li>
+            <li class="gallery__item">
+              <img src="img/3.jpg" alt="">
+            </li>
+            <li class="gallery__item">
+              <img src="img/4.jpg" alt="">
+            </li>
+            <li class="gallery__item">
+              <img src="img/5.jpg" alt="">
+            </li>
+            <li class="gallery__item">
+              <img src="img/6.jpg" alt="">
+            </li>
+            <li class="gallery__item">
+              <img src="img/7.jpg" alt="">
+            </li>
+            <li class="gallery__item">
+              <img src="img/8.jpg" alt="">
+            </li>
+            <li class="gallery__item">
+              <img src="img/9.jpg" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title">Зеленый</h2>
+      <p class="footer__text">мой любимый цвет</p>
+    </footer>
+  </div>
+</body>
+</html>

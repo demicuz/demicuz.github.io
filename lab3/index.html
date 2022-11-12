@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Lab 3 - SVG</title>
+</head>
+<body>
+  <header class="header">
+    <h2 class='header__title mt-5'>Лабораторная работа 3 - SVG</h2>
+  </header>
+
+  <main>
+    <section class="icons mt-5">
+      <div class="icons__container container row d-felx justify-content-center mx-auto text-center">
+        <h3 class="icons__title">Иконки</h3>
+
+        <!-- Close -->
+        <svg width="100" height="100" viewBox="0 0 100 100" class="icons__icon close col-md-2">
+            <circle cx="50" cy="50" r="45" fill="transparent" stroke-width="7" />
+            <line x1="40" y1="40%" x2="60" y2="60" style="stroke-width:2"/>
+            <line x1="60" y1="40" x2="40" y2="60" style="stroke-width:2"/>
+        </svg>
+
+        <!-- Menu -->
+        <svg class="icons__icon menu col-md-2" width="100" height="100" fill="none" >
+          <rect id="up" x="0" y="10" width="100" height="10"/>
+          <rect id="middle" x="0" y="50" width="100" height="10"/>
+          <rect id="low" x="0" y="90" width="100" height="10"/>
+        </svg>
+
+        <!-- Glass -->
+        <svg class="icons__icon glass col-md-2" width="100" height="100" stroke="#343a40" stroke-width="4">
+          <use xlink:href="#glass"></use>
+        </svg>
+
+        <!-- House -->
+        <svg class="icons__icon house col-md-2" width="100" height="100" fill="#343a40">
+          <use xlink:href="#house"></use>
+        </svg>
+
+        <!-- Sun -->
+        <svg width="100" height="90" class="icons__icon sun col-md-2">
+          <circle cx="45" cy="45" r="30" fill="yellow" stroke="none" />
+          <rect id="horizontal" x="0" y="45" width="10" height="5" rx="2" fill="yellow" stroke="none" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(15deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(30deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(45deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(60deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(75deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(90deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(105deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(120deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(135deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(150deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(165deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(180deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-15deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-30deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-45deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-60deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-75deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-90deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-105deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-120deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-135deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-150deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-165deg)" transform-origin="45 45"/>
+          <use href="#horizontal" style="transform: rotate(-180deg)" transform-origin="45 45"/>
+        </svg>
+
+        <!-- Clock -->
+        <svg width="90" height="90" class="icons__icon clock col-md-2">
+          <circle cx="45" cy="45" r="35" fill="transparent" stroke-width="7" />
+          <line id="hours" x1="45" y1="45" x2="30" y2="30" style="stroke-width:4" transform-origin="45 46" />
+          <line id="minutes" x1="45" y1="45" x2="25" y2="25" style="stroke-width:3" transform-origin="45 46" />
+        </svg>
+
+        <!-- Svg (house and glass) -->
+        <svg display="none">
+          <symbol id="glass">
+            <circle cx="40" cy="40" r="30" fill="transparent"/>
+            <line x1="58" y1="65" x2="80" y2="95"/>
+          </symbol>
+          <symbol id="house" viewBox="0 0 1280.000000 1280.000000">
+            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+            <path d="M6331 12789 c-13 -5 -1043 -1025 -2290 -2266 -3775 -3760 -3628
+            -3612 -3641 -3660 -13 -53 8 -113 54 -146 30 -22 38 -22 401 -28 204 -3 371
+            -6 373 -7 1 -1 2 -1294 2 -2873 0 -2017 3 -2883 11 -2913 15 -61 74 -134 139
+            -170 l55 -31 1685 -5 c927 -3 1591 -7 1475 -9 l-210 -4 125 -7 c114 -7 205
+            -13 345 -25 28 -2 100 -7 160 -11 61 -3 133 -7 160 -9 28 -2 140 -6 250 -10
+            110 -4 203 -9 207 -11 9 -6 1487 -6 1496 0 4 2 97 7 207 11 110 4 220 8 245
+            10 25 1 99 6 165 9 66 4 138 9 160 11 80 8 223 18 345 25 l125 7 -210 4 c-115
+            2 548 6 1475 9 l1685 5 41 22 c63 34 97 66 129 125 l30 53 3 2898 2 2898 368
+            -2 c325 -2 371 0 399 15 34 17 49 39 63 87 21 74 47 46 -906 999 l-894 895 -2
+            1160 -3 1160 -24 60 c-32 79 -109 155 -186 184 -56 21 -65 21 -798 19 l-742
+            -3 -50 -24 c-63 -32 -124 -93 -156 -156 -22 -46 -24 -65 -29 -226 l-5 -176
+            -1045 1039 c-575 572 -1058 1048 -1075 1059 -32 20 -75 24 -114 8z"/>
+            </g>
+          </symbol>
+        </svg>
+      </div>
+    </section>
+
+    <section class="bulb mt-5">
+      <div class="bulb__container container row d-flex justify-content-center mx-auto text-center">
+        <h3 class="bulb__title">Лампочка</h3>
+        <button class="btn btn-info col-2" id="btn_bulb">Вкл/Выкл</button>
+        <div class="row d-flex justify-content-center mt-2">
+          <svg width="100" heigth="100" class="bulb__light col-2" id="bulb">
+            <g>
+              <path d="M 50 69.042969 C 34.90625 69.042969 22.621094 56.761719 22.621094 41.660156 C 22.621094 31.773438 27.863281 22.8125 36.394531 17.929688 L 36.394531 2.378906 C 36.394531 1.066406 37.460938 0 38.773438 0 L 61.21875 0 C 62.53125 0 63.597656 1.066406 63.597656 2.378906 L 63.597656 17.929688 C 72.128906 22.8125 77.371094 31.773438 77.371094 41.660156 C 77.375 56.761719 65.09375 69.042969 50 69.042969 Z M 41.15625 4.753906 L 41.15625 19.347656 C 41.15625 20.242188 40.652344 21.0625 39.847656 21.46875 C 32.15625 25.347656 27.378906 33.085938 27.378906 41.660156 C 27.378906 54.136719 37.527344 64.289062 50 64.289062 C 62.476562 64.289062 72.621094 54.136719 72.621094 41.660156 C 72.621094 33.085938 67.84375 25.347656 60.148438 21.472656 C 59.351562 21.066406 58.847656 20.246094 58.847656 19.347656 L 58.847656 4.753906 Z M 41.15625 4.753906 "/>
+              <path d="M 51.304688 100 C 49.085938 100 47.285156 98.199219 47.285156 95.976562 L 47.285156 81.886719 C 47.285156 79.667969 49.085938 77.871094 51.304688 77.871094 C 53.515625 77.871094 55.316406 79.667969 55.316406 81.886719 L 55.316406 95.976562 C 55.3125 98.199219 53.515625 100 51.304688 100 Z M 51.304688 81.199219 C 50.921875 81.199219 50.613281 81.507812 50.613281 81.890625 L 50.613281 95.980469 C 50.613281 96.742188 51.988281 96.746094 51.984375 95.980469 L 51.984375 81.890625 C 51.984375 81.515625 51.679688 81.199219 51.304688 81.199219 Z M 51.304688 81.199219 "/>
+              <path d="M 19.914062 88.171875 C 18.84375 88.171875 17.84375 87.757812 17.085938 87.007812 C 15.519531 85.445312 15.515625 82.894531 17.082031 81.324219 L 27.054688 71.351562 C 28.570312 69.839844 31.210938 69.847656 32.722656 71.339844 C 34.289062 72.914062 34.289062 75.460938 32.730469 77.023438 L 22.757812 86.992188 C 22.003906 87.753906 20.992188 88.171875 19.914062 88.171875 Z M 29.894531 73.503906 C 29.789062 73.503906 29.578125 73.535156 29.40625 73.707031 L 19.441406 83.667969 C 19.167969 83.949219 19.164062 84.378906 19.441406 84.648438 C 19.78125 84.992188 20.054688 84.996094 20.410156 84.644531 L 30.382812 74.675781 C 30.648438 74.40625 30.648438 73.972656 30.382812 73.699219 C 30.207031 73.535156 29.996094 73.503906 29.894531 73.503906 Z M 29.894531 73.503906 "/>
+              <path d="M 80.082031 90.328125 C 79.007812 90.328125 77.996094 89.910156 77.238281 89.148438 L 67.269531 79.179688 C 65.710938 77.613281 65.710938 75.070312 67.269531 73.503906 C 68.777344 71.984375 71.429688 71.984375 72.949219 73.503906 L 82.914062 83.484375 C 83.671875 84.230469 84.089844 85.238281 84.089844 86.316406 C 84.089844 87.390625 83.675781 88.402344 82.914062 89.15625 C 82.164062 89.910156 81.152344 90.328125 80.082031 90.328125 Z M 70.113281 75.65625 C 70.007812 75.65625 69.804688 75.679688 69.632812 75.855469 C 69.363281 76.125 69.363281 76.558594 69.632812 76.828125 L 79.601562 86.796875 C 79.949219 87.136719 80.214844 87.140625 80.574219 86.796875 C 80.75 86.621094 80.773438 86.421875 80.773438 86.3125 C 80.773438 86.203125 80.75 86.007812 80.574219 85.832031 L 70.597656 75.851562 C 70.421875 75.679688 70.21875 75.65625 70.113281 75.65625 Z M 70.113281 75.65625 "/>
+              </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script>
+    let oppened = false;
+    let bulb = false;
+    function change_state(svg) {
+      oppened = !oppened;
+      if (oppened) {
+        svg.classList.add("opened");
+      } else {
+        svg.classList.remove("opened");
+      }
+    }
+    function change_bulb_state(svg) {
+      bulb = !bulb;
+      if (bulb) {
+      svg.querySelectorAll('path').forEach(elem => elem.classList.add('on'))
+      } else {
+      svg.querySelectorAll('path').forEach(elem => elem.classList.remove('on'))
+
+      }
+    }
+
+    window.addEventListener("load", function () {
+      const svg = document.querySelector(".menu");
+      const bulb_svg = document.querySelector('#bulb')
+      const toggle = document.querySelector('#btn_bulb')
+      svg.addEventListener("click", () => {
+      change_state(svg);
+      });
+      toggle.addEventListener('click', ()=> {
+      change_bulb_state(bulb_svg)
+      })
+
+    });
+  </script>
+</body>
