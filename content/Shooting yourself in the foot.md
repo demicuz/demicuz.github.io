@@ -5,3 +5,5 @@ lastmod: "2022-09-06"
 ---
 
 In [[C (language)|C]] it's extremely easy :)
+
+[[C pitfalls]]

@@ -1,5 +1,7 @@
 ---
 title: "Raymarching and SDFs"
+date: "2022-11-04"
+lastmod: "2022-11-04"
 ---
 
 [A list of signed distance functions](https://iquilezles.org/www/articles/distfunctions/distfunctions.htm)
@@ -22,4 +24,4 @@ In [this shadertoy](https://www.shadertoy.com/view/3ljcRh) the epsilon used to c
 - ![[Ray Marching for Dummies video#^b12f24]]
 
 ### Related
-- [[Raycasting]]
+- [[Raytracing]]

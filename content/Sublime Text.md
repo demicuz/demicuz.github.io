@@ -5,6 +5,7 @@ lastmod: "2022-08-17"
 ---
 
 - [[How Sublime Text was built]]
+- [[Sublime Text LSPs]]
 - [[Sublime Text key bindings]]
 
 ### Useful

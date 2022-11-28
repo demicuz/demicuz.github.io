@@ -25,6 +25,7 @@ See also #coding/language.
 - [Julia Evans](https://jvns.ca/)
 	- [Blogs I like - Julia Evans](https://jvns.ca/blogroll/)
 - [[Awesome Web#Blogs]]
+- [[null program (blog)|null program]]
 - YouTube
 	- Tsoding Daily
 	- On the code again (mostly Clojure)
@@ -32,7 +33,12 @@ See also #coding/language.
 ### Related
 - [[IT Job]]
 - [[Learning how to code]]
+- [[Evil things in programming]]
+
+### To classify, I guess?
+- [[Command line options]]
 
 ### #todo/coding 
 - [Code Faster with AI Code Completions | Tabnine](https://www.tabnine.com/) ^cek4hwm
 - [What Color is Your Function? – journal.stuffwithstuff.com](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/)
+- [tensorush/Awesome-Systems-Learning](https://github.com/tensorush/Awesome-Systems-Learning)

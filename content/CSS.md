@@ -9,6 +9,7 @@ lastmod: "2022-09-25"
 - [[CSS basics|Basics]]
 - [[Positioning in CSS|Positioning]]
 - [[Sizing in CSS|Sizing]]
+- [[CSS pseudo-classes|Pseudo-classes]]
 - [[Flexbox]]
 - [[CSS Grid|Grid]]
 - [[CSS weirdos|Weirdos]]

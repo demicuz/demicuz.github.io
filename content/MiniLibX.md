@@ -1,8 +1,17 @@
 ---
 title: "MiniLibX"
+date: "2022-10-27"
+lastmod: "2022-10-27"
 ---
 
 #todo/coding Should somehow add support for shaders. The Mac version has it.
+
+### Building
+run `./configure` to generate `Makefile.gen`. Then `make -f Makefile.gen`.
+
+### Usage
+Link with `-lXext -lX11`
+
 ### Notes
 On my laptop it uses [shm](https://en.wikipedia.org/wiki/MIT-SHM) image format.
 
@@ -25,3 +34,6 @@ More or less good font I have on my system:
 - [X PixMap - Wikipedia](https://en.wikipedia.org/wiki/X_PixMap)
 	- [What is the difference between XYPixmap, ZPixmap, XImage, XShmImage and Bitmap in X?](https://stackoverflow.com/questions/28323960/what-is-the-difference-between-xypixmap-zpixmap-ximage-xshmimage-and-bitmap-i)
 - [3D Graphics and Animation Programming Tutorial in C/Linux #01 - Creating Triangle - YouTube](https://www.youtube.com/watch?v=C-jp-_Dlz6E&list=PLApkofOilm_8-xCq2fE8cprlkhGSGeRpb&index=4)
+
+**Various fixes**
+- [Fix mlx\_xpm\_to\_image() [OK] · alisterd51/minilibx-linux@8e244ac](https://github.com/alisterd51/minilibx-linux/commit/8e244ac12253eb474f368dae795a701c6ba556ff)

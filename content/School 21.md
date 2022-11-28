@@ -8,6 +8,9 @@ lastmod: "2022-08-21"
 - [[C (language)]]
 - [[MiniLibX]]
 
+### Sber
+- [[3D viewer v1.0 (School 21 project)]]
+
 ### Common core projects
 - [[libft]]
 - [[get_next_line]]
@@ -30,7 +33,6 @@ lastmod: "2022-08-21"
 - [Калькулятор уровней для Школы 21](https://calc21.ru/) (seems to be dead)
 - [42evaluators](https://42evaluators.com/calculator)
 - [mharriso/school21-checklists](https://github.com/mharriso/school21-checklists)
-- [Glagan/42-exam-rank-03](https://github.com/Glagan/42-exam-rank-03)
 
 ### Cool guys
 - [mtiesha](https://profile.intra.42.fr/users/mtiesha)

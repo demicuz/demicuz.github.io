@@ -4,7 +4,7 @@ date: "2022-08-28"
 lastmod: "2022-08-28"
 ---
 
-A version control system. Maybe not the best, but the most popular.
+A version control system. Maybe not the best in all aspects, but the most popular. Sane people use git clients like [[Sublime Merge]] or Magit.
 
 **Basic commands**
 - [[git merge]]
@@ -39,7 +39,7 @@ committer demicuz <pure.demicube@gmail.com> 1654647663 +0300
 initial commit
 ```
 
-Use `git cat-file commit <some-commit>` to view it. Yes, there is an **author**, and a **committer**. See more [here](https://ivan.bessarabov.com/blog/git-author-committer).
+Use `git cat-file commit <some-commit>` to view it. Yes, there is an **author**, and a **committer**. See more [here](https://ivan.bessarabov.com/blog/git-author-committer). And [here](https://stackoverflow.com/questions/750172)'s how to change committer and author.
 
 ### Submodules
 ```bash

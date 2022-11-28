@@ -10,6 +10,13 @@ git rebase --interactive HEAD~2
 
 And then instead of `pick` do either `fixup` or `squash`.
 
+### Undo changes
+For unstaged files:
+```shell
+git restore .
+git restore path/to/file
+```
+
 ### Other links
 - [6 типичных ошибок Git и как их исправить / Хабр](https://habr.com/ru/company/flant/blog/419733/)
 - [oh shit! I want to split my commit into 2 commits!](https://wizardzines.com/comics/oh-shit-split-commit/)
@@ -20,5 +27,6 @@ And then instead of `pick` do either `fixup` or `squash`.
 
 **To look into later**
 - [Merge Branches but Keep Commit History](https://stackoverflow.com/questions/28550602)
+- [How do I remove local (untracked) files?](https://stackoverflow.com/questions/61212/)
 
 See also [[Git resources]].

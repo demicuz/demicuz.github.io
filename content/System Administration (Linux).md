@@ -14,6 +14,7 @@ lastmod: "2022-08-14"
 - [[cron]]
 - [[Linux autostart]]
 - [[systemctl]]
+- [[Linux shared libraries]]
 
 ### Useful
 - [SysAdmin Archives | Knowledge Base by phoenixNAP](https://phoenixnap.com/kb/category/sysadmin)

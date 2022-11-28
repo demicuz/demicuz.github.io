@@ -1,5 +1,7 @@
 ---
 title: "poetry"
+date: "2022-10-05"
+lastmod: "2022-10-05"
 ---
 
 Yet another package manager for Python the language.
@@ -9,5 +11,8 @@ Yet another package manager for Python the language.
 > By default, poetry uses `~/.cache/pypoetry/virtualenvs` for storing virtual envs. Bad idea. Change it with `poetry config virtualenvs.path /your/new/path`. `$HOME/.local/share/poetry/virtualenvs` is suggested. See [this issue](https://github.com/python-poetry/poetry/issues/3346).
 
 ### How to use
+- `poetry new` - create a project at current path
 - `poetry shell` - activate a virtual environment
-- `poetry install` - install dependencies of existing project
+- `poetry add` - install packages
+- `poetry init` - initialize an existing project with `pyproject.toml`
+- `poetry install` - install dependencies of an existing project

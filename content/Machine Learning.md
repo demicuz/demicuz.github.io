@@ -11,3 +11,5 @@ lastmod: "2022-09-12"
 - [Учебник по машинке от Яндекса](https://ml-handbook.ru)
 - https://twitter.com/Jeande_d/status/1521155705050345473
 - fast.ai
+- [patrickloeber: Machine Learning from scratch.](https://github.com/patrickloeber/MLfromscratch)
+- [Blog - Zero with Dot](https://zerowithdot.com/blog/)

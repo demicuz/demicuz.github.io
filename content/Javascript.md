@@ -2,10 +2,13 @@
 title: "JavaScript"
 aliases: [JS]
 tags: [coding/language]
+date: "2022-11-13"
+lastmod: "2022-11-13"
 ---
 
 JavaScript is a prototype-based language: there are **no classes** and objects are created using a cloning process. JavaScript is also a dynamic programming language which means that properties can be easily added or removed from an object after its instantiation.
 
+- [[Learning JS]]
 - [[JS syntax|Syntax]]
 - [[JS quirks|Quirks]]
 - [[Strings in JS|Strings]]
@@ -23,4 +26,4 @@ JavaScript is a prototype-based language: there are **no classes** and objects a
 ### Notes
 I recommend paring React with [Redux](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44), [Redux-Saga](https://redux-saga.js.org/) and [RITEway](https://github.com/ericelliott/riteway). I recommend pairing Redux with [Autodux](https://github.com/ericelliott/autodux) and [Immer](https://github.com/immerjs/immer). For complex state transitions, check out [Redux-DSM](https://github.com/ericelliott/redux-dsm) - Eric Elliott
 
-**Prototypal Inheritance** ↔ objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects.
+**Prototypal Inheritance** ↔ objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects. #todo wat?

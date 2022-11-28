@@ -1,27 +1,25 @@
 ---
 title: "Vue"
+date: "2022-11-20"
+lastmod: "2022-11-20"
 ---
+
+- [[Vue basics]]
+- [[Vue directives (advanced)]]
+- [[Vue Composition API]]
+- [[Vue pitfalls]]
+- [[State management in Vue]]
+
+### Projects
+- [[Kanban board with Vue]]
 
 ### Learning
 `computed properties` docs has some food for thought.
 
 ### Notes
-You should avoid using arrow functions when defining `methods`, as that prevents Vue from binding the appropriate `this` value:
-```js
-export default {
-  methods: {
-    increment: () => {
-      // BAD: no `this` access here!
-    }
-  }
-}
-```
+Template expressions (`{{ }}`) are sandboxed and only have access to a [restricted list of globals](https://github.com/vuejs/core/blob/main/packages/shared/src/globalsWhitelist.ts#L3). The list exposes commonly used built-in globals such as `Math` and `Date`.
 
-When using in-DOM templates (templates directly written in an HTML file), you should avoid naming keys with uppercase characters, as browsers will coerce attribute names into lowercase:
-```html
-<a :[someAttr]="value"> ... </a>
-```
-The above will be converted to `:[someattr]` in in-DOM templates. If your component has a `someAttr` property instead of `someattr`, your code won't work. [Source](https://vuejs.org/guide/essentials/template-syntax.html#directives)
+Globals not explicitly included in the list, for example user-attached properties on `window`, will not be accessible in template expressions. You can, however, explicitly define additional globals for all Vue expressions by adding them to [`app.config.globalProperties`](https://vuejs.org/api/application.html#app-config-globalproperties).
 
 ### Prefix shorthands
 `v-bind` - `:` (`:some-attribute="..."`)
@@ -31,3 +29,7 @@ The above will be converted to `:[someattr]` in in-DOM templates. If your compon
 - [Which dist files to use?](https://github.com/vuejs/core/tree/main/packages/vue#which-dist-file-to-use)
 - [petite-vue - 6kb subset of Vue](https://github.com/vuejs/petite-vue)
 - [Tutorial | Vue.js](https://vuejs.org/tutorial/#step-1)
+- [Quick Start | Vue.js](https://vuejs.org/guide/quick-start.html)
+- [Guide | Vue.js](https://vuejs.org/guide/essentials/application.html)
+	- [Class and Style Bindings | Vue.js](https://vuejs.org/guide/essentials/class-and-style.html#binding-html-classes)
+- [Examples | Vue.js](https://vuejs.org/examples/#hello-world)

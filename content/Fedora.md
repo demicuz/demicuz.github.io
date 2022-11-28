@@ -50,3 +50,4 @@ Also [this page](https://fedoraproject.org/wiki/Firefox_Hardware_acceleration).
 
 ### Links
 - [Installation](https://github.com/ai/environment/blob/main/Install.md) from [[Andrey Sitnik]]
+- [How to install .deb packages on Fedora?](https://www.systutorials.com/how-to-install-deb-packages-on-fedora/)

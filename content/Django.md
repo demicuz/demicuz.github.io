@@ -1,8 +1,12 @@
 ---
 title: "Django"
+date: "2022-10-22"
+lastmod: "2022-10-22"
 ---
 
 A [[Python]] framework for creating websites and web apps.
+
+- [[Django quick tips]]
 
 ### Notes
 Use `timezone.now()` instead of `datetime` stuff.

@@ -1,5 +1,7 @@
 ---
 title: "Building C"
+date: "2022-11-16"
+lastmod: "2022-11-16"
 ---
 
 ### Libraries
@@ -17,9 +19,8 @@ See also [How do you actually use a C library? - Stack Overflow](https://stackov
 
 If a function is contained in two static libraries and you use both of them, then the implementation which comes in the **first** included library will be used. Weird.
 UPD: I think it's important how your object files are named. If the function is contained in both libraries, but the object files are named different, there **will** be a multiple declaration error.
-### Headers
-[[Makefile#d files]]
 
 ### Other thingies
 - [[C compilation and debugging]]
 - [[Meson build system]]
+- [[Making libraries]]

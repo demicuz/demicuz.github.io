@@ -1,5 +1,7 @@
 ---
 title: "VirtualBox"
+date: "2022-11-10"
+lastmod: "2022-11-10"
 ---
 
 ### Snapshots
@@ -20,3 +22,6 @@ Some tips on using them:
 ### Configuring SSH
 - [How to connect to VirtualBox via SSH - Linux Networking](https://linuxconfig.org/unable-to-ssh-into-virtualbox-guest-machine)
 - [Easy way to SSH into VirtualBox machine | Any OS - DEV Community](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i)
+
+### Links
+- [How to Install VirtualBox on Fedora 36 / Fedora 35 | ITzGeek](https://www.itzgeek.com/how-tos/linux/fedora-how-tos/install-virtualbox-on-fedora.html)

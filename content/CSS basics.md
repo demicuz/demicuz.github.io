@@ -1,5 +1,7 @@
 ---
 title: "CSS basics"
+date: "2022-11-15"
+lastmod: "2022-11-15"
 ---
 
 ### Selectors
@@ -14,13 +16,7 @@ Type selectors, e.g. `h1` or `::before`. Avoid if possible.
 
 `.` - class selectors
 
-Nested selectors:
-```CSS
-/* select ALL tags 'a' inside of 'nav' */
-nav a {...}
-/* select only direct 'h3' children of 'article' */
-article > h3 {...}
-```
+See also [[CSS Complex selectors]].
 
 ### Inheritance
 Some properties get inherited (mainly text style). I don't think it's a good idea to rely on that.

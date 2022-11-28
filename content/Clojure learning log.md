@@ -3,7 +3,7 @@ title: "Clojure learning log"
 date: "2022-09-04"
 ---
 
-`'(1 2 3)` syntax to construct lists. a `'` basically means "don't interpret this as expression".
+`'(1 2 3)` syntax to construct lists. a `'` basically means "don't interpret this as an expression".
 
 You can use `:a <map>` and `<map> :a` syntax to get a value out of a map. They have a slight difference, though I don't remember what exactly.
 
@@ -18,6 +18,9 @@ Seems like you can get nth element of a vector with this weird syntax:
 `lazy-seq`
 
 `walk`, `tree-seq` - mind blown.
+
+### Articles
+- https://www.abhinavomprakash.com/posts/clojure-walk/
 
 ### 4Clojure
 Custom flatten:

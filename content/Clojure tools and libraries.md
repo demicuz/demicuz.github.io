@@ -12,9 +12,14 @@ lastmod: "2022-09-06"
 
 ### Editor stuff
 - [[Paredit]]
+- https://twitter.com/borkdude/status/1584855336670105600?t=pO8Q0Ufoi6IAODnXBh01XA&s=19
 
 ### REPL
 - [Clojure REPLs | The Ultimate Guide To Clojure REPLs Guide](https://lambdaisland.com/guides/clojure-repls/clojure-repls#org259d775)
+
+### Other
+- [leonoel/cloroutine: Coroutine support for clojure](https://github.com/leonoel/cloroutine)
+- [leonoel/missionary: A functional effect and streaming system for Clojure/Script](https://github.com/leonoel/missionary)
 
 ### Related
 - [[Clojure development environment]]
