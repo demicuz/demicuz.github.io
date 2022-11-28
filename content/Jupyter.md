@@ -1,5 +1,0 @@
----
-title: "Jupyter"
----
-
-Interactive notebook.
