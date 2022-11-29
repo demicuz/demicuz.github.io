@@ -4,6 +4,8 @@ date: "2022-11-20"
 lastmod: "2022-11-20"
 ---
 
+Create a project: `pnpm create vue@3`
+
 - [[Vue basics]]
 - [[Vue directives (advanced)]]
 - [[Vue Composition API]]
@@ -31,5 +33,4 @@ Globals not explicitly included in the list, for example user-attached propertie
 - [Tutorial | Vue.js](https://vuejs.org/tutorial/#step-1)
 - [Quick Start | Vue.js](https://vuejs.org/guide/quick-start.html)
 - [Guide | Vue.js](https://vuejs.org/guide/essentials/application.html)
-	- [Class and Style Bindings | Vue.js](https://vuejs.org/guide/essentials/class-and-style.html#binding-html-classes)
 - [Examples | Vue.js](https://vuejs.org/examples/#hello-world)

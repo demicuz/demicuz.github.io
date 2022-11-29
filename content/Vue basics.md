@@ -174,7 +174,7 @@ emit('response', 'hello from child')
 ```
 
 ### Slots
-Like [[#Props]], but more confusing:
+Can put arbitrary html stuff into components:
 ```html
 <script setup>
 import { ref } from 'vue'
@@ -195,9 +195,10 @@ const msg = ref('from parent')
 </template>
 ```
 
-### #todo
-Seems like you can do this:
+### Class and style bindings
+You can do this:
 ```html
 <span :class="{ done: todo.done }">{{ todo.text }}</span>
 ```
-How? Why?
+
+If `todo.done` is truthy, then `done` is added to the class list. See more: [Class and Style Bindings | Vue.js](https://vuejs.org/guide/essentials/class-and-style.html).
