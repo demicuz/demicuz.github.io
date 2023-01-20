@@ -6,6 +6,11 @@ lastmod: "2022-08-15"
 
 - [[Terminal tools]]
 
+
+> [!danger]
+> Be careful with `mv` and `rm` commands! You can easily overwrite or destroy valuable data. Use with caution. Back up files or use version control!
+
+
 ### Misc (Shell)
 `wc` - count words, lines, etc.
 `less` - read smth long in terminal instead of printing it

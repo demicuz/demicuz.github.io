@@ -6,6 +6,7 @@ lastmod: "2022-08-21"
 
 - [[Salaries in IT]]
 - [[Курсы и стажировки]]
+- [[Interview preparation]]
 
 ### Where to search
 - Хабр Карьера

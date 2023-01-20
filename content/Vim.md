@@ -27,6 +27,6 @@ See also:
 - [scroll - How to move screen without moving cursor in Vim?](https://stackoverflow.com/questions/3458689)
 - [5 cool terminal pagers in Fedora - Fedora Magazine](https://fedoramagazine.org/5-cool-terminal-pagers-in-fedora/)
 - [How to make vim paste from (and copy to) system's clipboard?](https://stackoverflow.com/questions/11489428)
-
+- [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 ### Plugins
 - [yuttie/comfortable-motion.vim](https://github.com/yuttie/comfortable-motion.vim) - smooth scrolling

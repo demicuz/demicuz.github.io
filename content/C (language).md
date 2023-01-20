@@ -10,14 +10,17 @@ lastmod: "2022-08-15"
 - [oz123/awesome-c](https://github.com/oz123/awesome-c)
 
 ### Useful stuff
+#todo too many!
 - [[C tricks]]
 - [[Dynamic memory allocation in C]]
+- [[C declarations]]
 - [[Pointers in C]]
 - [[struct in C]]
 - [[Strings in C]]
+- [[`typedef` in C]]
+- [[Advanced C syntax]]
 - [[Makefile]]
-- [[C compilation and debugging]]
-- [[Building C]]
+- [[C debugging, compilation and building]]
 - [[Making libraries]]
 - [[C linting and formatting]]
 - [[Static variables]]
@@ -38,7 +41,7 @@ You can include `stddef.h` instead of `stdlib.h` for `NULL` and `size_t`.
 You can declare an `enum` inside of a `struct`. It will act the same as if it was defined in the outer scope.
 
 ### #todo 
-- You can initialize only first `n` elements of an array. Like only the first:
+- You can initialize arrays like this:
 ```C
 char buffer[100] = {0};
 ```

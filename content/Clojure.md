@@ -14,6 +14,7 @@ A [[Lisp]]. Clojure compiler is a different thing, as Clojure is a hosted langua
 - [[Clojure tools and libraries|Tools and libraries]]
 - [[Clojure functions|Functions]]
 - [[Clojure learning log]]
+- [[Debugging Clojure]]
 
 Also notes in [[Logseq]]
 

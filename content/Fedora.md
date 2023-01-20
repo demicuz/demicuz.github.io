@@ -33,6 +33,20 @@ fastestmirror=True
 (also maybe) deltarpm=true
 ```
 
+I used this:
+```
+[main]
+gpgcheck=1
+installonly_limit=3
+clean_requirements_on_remove=True
+best=False
+skip_if_unavailable=True
+# Added myself
+fastestmirror=True
+max_parallel_downloads=10
+keepcache=True
+```
+
 Also see [this](https://github.com/devangshekhawat/Fedora-36-Post-Install-Guide).
 
 `lspci` to get hardware.

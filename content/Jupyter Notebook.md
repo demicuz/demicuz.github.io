@@ -7,6 +7,8 @@ lastmod: "2022-11-16"
 Interactive notebook.
 
 ### Basics
+Start with `jupyter lab`.
+
 There are three cell types - Code, Markdown and Raw.
 
 ### Shortcuts

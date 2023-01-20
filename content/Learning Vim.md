@@ -55,3 +55,6 @@ The command `zr` reduces folding by opening one more level of folds throughout t
 The command `zm` gives more folding by closing one more level of folds throughout the whole buffer. Use `zM` to close all folds.
 
 ([link](https://vim.fandom.com/wiki/Folding))
+
+### Links
+- [Vim Cheat Sheet](https://vim.rtorr.com/)

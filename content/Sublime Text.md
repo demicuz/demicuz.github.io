@@ -7,19 +7,14 @@ lastmod: "2022-08-17"
 - [[How Sublime Text was built]]
 - [[Sublime Text LSPs]]
 - [[Sublime Text key bindings]]
+- [[Sublime Text How-to's]]
 
 ### Useful
 - [Sublime tips for multi-cursor mastery](https://www.mediasuite.co.nz/blog/sublime-tips-multi-cursor-mastery/)
 - [Multiple Selection with the Keyboard – Sublime Text Documentation](https://www.sublimetext.com/docs/multiple_selection_with_the_keyboard.html) #todo
 - [lunixbochs/ActualVim: Sublime Text 3 input mode using Neovim.](https://github.com/lunixbochs/ActualVim) #todo
+- [Change build system by keyboard shortcut](https://forum.sublimetext.com/t/change-build-system-by-keyboard-shortcut/21769) #todo
 - Can I create a build system that launches [[kitty]]? Or even better, uses existing session?
-
-### Disabling ligatures
-In Sublime settings:
-```json
-"font_options": ["no_liga", "no_clig", "no_calt"]
-```
-Or just use a variation of the font without them.
 
 ### Notes
 `View Package File` allows to view package files! Useful for viewing build systems.
@@ -46,7 +41,7 @@ There are syntax-specific settings, which is nice.
 }
 ```
 
-See also [[clangd]]
+See also [[clangd and friends]].
 - [Customization - LSP for Sublime Text](https://lsp.sublimetext.io/customization/)
 
 For Python, I installed LSP-pylsp **and** LSP-pyright. Used config from LSP-pylsp README.

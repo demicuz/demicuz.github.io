@@ -4,6 +4,7 @@ date: "2022-08-14"
 lastmod: "2022-08-14"
 ---
 
+- [[Useful terminal and shell commands]]
 - [[UNIX processes]]
 - [[UNIX signals]]
 - [[Managing users in Linux]]

@@ -6,37 +6,12 @@ lastmod: "2022-08-15"
 
 #todo rewrite this stuff. I use [[Fedora]] now.
 
-[[Software I use]]
+- [[Software I use]]
+- [[KDE settings I tend to change]]
+- [[Stuff to do after Linux installation]]
+- [[Software to update by hand]]
 
-### Things I've changed in my [[Kubuntu]]
-#### Automatic setting of max CPU temp
-Added a small script to KDE autostart menu:
-```bash
-#!/bin/bash
-
-# Wait for the GUI to be ready
-while [[ ! $(pgrep plasmashell) ]]; do sleep 1; done
-sudo /opt/RyzenAdj/ryzenadj --tctl-temp=62 && notify-send "Sucessfully set tctl_temp to 62"
-```
-
-Also set it to use `sudo` without password using [this](https://askubuntu.com/questions/197536/running-a-startup-program-in-terminal-with-sudo?rq=1) method and added a custom shortcut to launch it. But after suspend/wakeup cycle this setting breaks. And there's no way under KDE to execute something after wakeup, AFAIK. So I used [this method](https://askubuntu.com/questions/226278/run-script-on-wakeup) and added a small script to `/lib/systemd/system-sleep/`:
-```bash
-#!/bin/sh
-
-case $1/$2 in
-  pre/*)
-    # echo "Going to $2..."
-    # Place your pre suspend commands here, or `exit 0` if no pre suspend action required
-    exit 0
-    ;;
-  post/*)
-    # echo "Waking up from $2..."
-    # Place your post suspend (resume) commands here, or `exit 0` if no post suspend action required
-    # while [[ ! $(pgrep plasmashell) ]]; do sleep 1; done
-        /opt/RyzenAdj/ryzenadj --tctl-temp=62
-    ;;
-esac
-```
+### Things I've changed in my [[Kubuntu]] (old)
 
 #### Changes to [[GRUB]]
 Added `iommu=soft` due to [this issue](https://bugzilla.kernel.org/show_bug.cgi?id=202665) that crashes my laptop. *UPD*: removed it, just because it spams errors in `journalctl`. I'm to lazy to figure out whether there's something to worry about, so just restored default GRUB config. UPD2: system freezes returned 🥲. Kernel version: 5.11.0-41 generic.

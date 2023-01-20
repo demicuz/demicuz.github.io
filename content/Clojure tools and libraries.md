@@ -9,6 +9,7 @@ lastmod: "2022-09-06"
 
 ### Clojure "extensions"
 - [Loopr: A Loop/Reduction Macro for Clojure](https://aphyr.com/posts/360-loopr-a-loop-reduction-macro-for-clojure)
+- [typedclojure: An optional type system for Clojure](https://github.com/typedclojure/typedclojure)
 
 ### Editor stuff
 - [[Paredit]]

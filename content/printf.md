@@ -1,5 +1,7 @@
 ---
 title: "printf"
+date: "2022-12-22"
+lastmod: "2022-12-22"
 ---
 
 A [[School 21]] project.
@@ -11,7 +13,7 @@ A [[School 21]] project.
 - Misc
 	- [<stdarg.h>](https://pubs.opengroup.org/onlinepubs/007904975/basedefs/stdarg.h.html)
 	- [stdarg.h - Wikipedia](https://en.wikipedia.org/wiki/Stdarg.h)
-- [[Building C#Libraries]]
+- [[C debugging, compilation and building#Libraries]]
 - [Пилим printf() своими руками. Часть первая. | by Weston Normcore | Medium](https://medium.com/@wnormcor/%D0%BF%D0%B8%D0%BB%D0%B8%D0%BC-printf-%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8-%D1%80%D1%83%D0%BA%D0%B0%D0%BC%D0%B8-5755cfbaf4e9)
 	- > Важное отступление: чтобы считать аргумент типа char, нужно передать в **va_arg** тип **int**. Особенностей реализации мы здесь касаться не будем, просто запомните, что **char** считывается через **int**. [More info](https://stackoverflow.com/questions/28054194/char-type-in-va-arg).
 

@@ -1,5 +1,7 @@
 ---
 title: "grep"
+date: "2023-01-15"
+lastmod: "2023-01-15"
 ---
 
 - `-E` - use extended regular expressions, whatever that means
@@ -13,4 +15,5 @@ Search for whole words with `grep "\bmyword\b"`. `\b` means boundaries.
 todo something strange happening when using with `watch`. It ignores spaces.
 
 ### See also
-- [[pstree]]
+- [[ripgrep]]
+- [[ag]] ([link](https://github.com/ggreer/the_silver_searcher))

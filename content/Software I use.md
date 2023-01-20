@@ -9,3 +9,4 @@ date: "2022-08-15"
 - [[difftastic]] for smart code diffing. It's awesome. Forget about `git diff`.
 - [[Sublime Merge]] - a beautiful git client
 - [[Fedora]]. Used [[Kubuntu]] previously.
+- Various [[Terminal tools]]

@@ -16,7 +16,7 @@ lastmod: "2022-08-17"
  - [Symbol "|" in dependency](https://stackoverflow.com/questions/52821513/)
 
 ### Related
-- [[C compilation and debugging]]
+- [[C debugging, compilation and building]]
  
 ### Notes
 Suffix rules [ignore](https://www.gnu.org/software/make/manual/html_node/Error-Messages.html) prerequisites. So you can't write something like:

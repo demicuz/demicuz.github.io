@@ -14,5 +14,9 @@ Yet another package manager for Python the language.
 - `poetry new` - create a project at current path
 - `poetry shell` - activate a virtual environment
 - `poetry add` - install packages
+	- `poetry add --dev` - install dev dependencies
+- `poetry show` - show all packages 
 - `poetry init` - initialize an existing project with `pyproject.toml`
 - `poetry install` - install dependencies of an existing project
+---
+- `poetry list` - list **all commands**. Not packages.

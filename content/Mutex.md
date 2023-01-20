@@ -1,5 +1,7 @@
 ---
 title: "Mutex"
+date: "2023-01-15"
+lastmod: "2023-01-15"
 ---
 
 A special object that controls thread access to shared resources to prevent [[Race condition|data race]]. Only one process at a time is allowed to read/write. Mutexes have some downsides, see [[#Links]].

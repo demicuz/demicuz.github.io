@@ -16,3 +16,6 @@ At one time I thought, Why not create a page that lists all the useful blogs?
 
 ### Learning & PKM
 - https://supermemo.guru/wiki/SuperMemo_Guru
+
+### See also
+- [[_ Programming and CS#Websites, blogs and stuff]]

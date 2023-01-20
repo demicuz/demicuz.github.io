@@ -31,6 +31,7 @@ See also #coding/language.
 	- On the code again (mostly Clojure)
 
 ### Related
+- [[A list of helpful programming tools]]
 - [[IT Job]]
 - [[Learning how to code]]
 - [[Evil things in programming]]

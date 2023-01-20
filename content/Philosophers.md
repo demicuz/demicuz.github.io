@@ -1,5 +1,7 @@
 ---
 title: "Philosophers"
+date: "2023-01-15"
+lastmod: "2023-01-15"
 ---
 
 [[Multi-threaded programming]], yay!

@@ -5,6 +5,7 @@ lastmod: "2022-08-25"
 ---
 
 ### Tips
+`%` - search tabs.
 `about:performance` for memory and CPU usage of individual tabs.
 
 ### Issues

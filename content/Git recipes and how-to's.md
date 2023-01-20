@@ -3,6 +3,11 @@ title: "Git recipes and how-to's"
 date: "2022-09-19"
 ---
 
+### Clone repos without pulling all the history
+```
+git clone url://to/source/repository --recursive --shallow-submodules --depth 1
+```
+
 ### Squash two last commits
 ```shell
 git rebase --interactive HEAD~2

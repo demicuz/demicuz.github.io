@@ -1,5 +1,7 @@
 ---
 title: "C tricks"
+date: "2023-01-06"
+lastmod: "2023-01-06"
 ---
 
 [[C (language)]]
@@ -18,5 +20,8 @@ You can [detect](https://www.geeksforgeeks.org/how-to-detect-operating-system-th
 ```C
 #ifdef __linux__
 // Some linux-specific code
+#endif
+#ifdef __APPLE__
+// Some Apple-specific code
 #endif
 ```

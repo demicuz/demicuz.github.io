@@ -1,6 +1,11 @@
 ---
 title: "GLSL"
+date: "2022-12-27"
+lastmod: "2022-12-27"
 ---
+
+### Links
+- [GLSL Tutorial – Core » Lighthouse3d.com](https://www.lighthouse3d.com/tutorials/glsl-tutorial/)
 
 ### Essentials
 #### Pages

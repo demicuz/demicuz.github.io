@@ -4,7 +4,7 @@ date: "2022-08-15"
 lastmod: "2022-08-15"
 ---
 
-A shell!
+A shell.
 
 #todo - are fish completions lazy-loaded?
 
@@ -12,6 +12,11 @@ A shell!
 - [[Terminal tools]]
 
 ### Notes
+To avoid saving a command to `fish_history`, just start it with a space. Like in [[Bash]].
+
+### Tips
+`abbr -a` to add abbreviations.
+
 To accept the autosuggestion, hit `→` (right arrow) or `Ctrl + F`. To accept a single word of the autosuggestion, `Alt + →` (right arrow) or `Alt + F`.
 
 Navigating folders:
@@ -19,6 +24,8 @@ Navigating folders:
 - `cdh` displays a prompt to quickly navigate the history
 - `prevd` moves backward through the history. It is bound to Alt+←
 - `nextd` moves forward through the history. It is bound to Alt+→
+
+Use `&|` to pipe `stdout` and `stderr` to the next command. Use `2>|` to pipe only `stderr`.
 
 ### Plugins
 Install fisher, a plugin manager. It's *the only* way to manage plugins. Don't even touch oh-my-fish.
@@ -29,10 +36,9 @@ To make environment [variables](https://fishshell.com/docs/current/language.html
 set -gx DENO_INSTALL "/home/psharen/.deno"
 # optionally, add to PATH:
 set -gx PATH "$DENO_INSTALL" $PATH
-# you can also use fish_add_path instead
 ```
 
-You should add this to `config.fish` to make it persistent. If you want add something to `PATH`, use `fish_add_path` instead.
+You should add this to `config.fish` to make it persistent. If you want to add something to `PATH`, you can use `fish_add_path` instead.
 
 ### Links
 - [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish)

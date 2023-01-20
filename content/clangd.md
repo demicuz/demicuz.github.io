@@ -9,8 +9,7 @@ Provides IDE-like features for text editors through [[Language Server Protocol]]
 ### clang-tidy
 You have to create `.clang-tidy` file in the project root directory and specify the checks you need ([list of options](https://clang.llvm.org/extra/clang-tidy/#using-clang-tidy)). Example:
 ```
-Checks: 'bugprone-*,cert-*,clang-analyzer-*,concurrency-*'
+Checks: 'bugprone-*,cert-*,clang-analyzer-*,linuxkernel-*,misc-*,performance-*,readability-*,-readability-braces-around-statements,-readability-identifier-length,-bugprone-easily-swappable-parameters'
 ```
-
 - [clang-tidy in Visual Studio Code - YouTube](https://www.youtube.com/watch?v=8RSxQ8sluG0)
 - [Configuration - clangd](https://clangd.llvm.org/config.html#clangtidy)

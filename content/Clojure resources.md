@@ -14,3 +14,6 @@ lastmod: "2022-08-14"
 - [Elements of Clojure by Zachary Tellman](https://leanpub.com/elementsofclojure)
 - [Rich Hickey bookshelf](https://ananthakumaran.in/2018/11/07/rich-hickey-clojure-bookshelf.html)
 - Clojure for the brave and true
+
+### Blogs
+- [dissoc](https://blog.ambrosebs.com/)

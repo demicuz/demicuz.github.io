@@ -20,3 +20,4 @@ bb --nrepl-server
 ### Resources
 - [Babashka book](https://book.babashka.org/)
 - [Babahska example projects](https://github.com/babashka/babashka/blob/master/doc/projects.md#release-on-push-github-action)
+- https://github.com/prestancedesign/babashka-htmx-todoapp
