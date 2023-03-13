@@ -4,21 +4,26 @@ date: "2022-08-17"
 lastmod: "2022-08-17"
 ---
 
- 
- GNU build thingie for C language. #todo one template to rule them all.
- 
- ### Useful
- - [[Makefile cheatsheet]]
- - [[Managing Projects with GNU Make]] - a whole book about Makefile (YES)
- - [How to write a Makefile with separate source and header directories?](https://stackoverflow.com/questions/30573481/)
- - [Rules of Makefiles | GNU make](https://make.mad-scientist.net/papers/rules-of-makefiles)
- - [Auto-Dependency Generation | GNU make](https://make.mad-scientist.net/papers/advanced-auto-dependency-generation/)
- - [Symbol "|" in dependency](https://stackoverflow.com/questions/52821513/)
+GNU build thingie for C language. #todo one template to rule them all.
+
+### Useful
+- https://github.com/pyos/re2jit-template/blob/master/Makefile #todo
+- [How to write a Makefile](https://github.com/amjadmajid/Makefile)
+- [[Makefile cheatsheet]]
+- [c++ - How to write a Makefile with separate source and header directories?](https://stackoverflow.com/questions/30573481/)
+- [[Managing Projects with GNU Make]] - a whole book about Makefile (YES)
+- [How to write a Makefile with separate source and header directories?](https://stackoverflow.com/questions/30573481/)
+- [Rules of Makefiles | GNU make](https://make.mad-scientist.net/papers/rules-of-makefiles)
+- [Auto-Dependency Generation | GNU make](https://make.mad-scientist.net/papers/advanced-auto-dependency-generation/)
+- [Symbol "|" in dependency](https://stackoverflow.com/questions/52821513/)
 
 ### Related
 - [[C debugging, compilation and building]]
- 
+
 ### Notes
+There are [implicit variables](https://stackoverflow.com/questions/11394659/) and rules, use `make -p -f /dev/null` to print them.
+For compiling C++ use `CXX` instead of `CC`, `CXXFLAGS` instead of `CFLAGS`.
+
 Suffix rules [ignore](https://www.gnu.org/software/make/manual/html_node/Error-Messages.html) prerequisites. So you can't write something like:
 ```Makefile
 .c.o: $(HEADER)
@@ -29,7 +34,7 @@ But it seems like you can do this instead:
 %.o: %.c $(HEADER)
 	<your compilation steps>
 ```
- 
+
 There's also a thing called ".d files", which... Like an intermediate file format for Make, I guess? [what is .d file after building with make - Stack Overflow](https://stackoverflow.com/questions/19114410/what-is-d-file-after-building-with-make)
 
 ### `basename` function
@@ -105,6 +110,7 @@ re: fclean all
 
 -include $(OBJ:.o=.d)
 ```
+
 ##### libft
 ```Makefile
 NAME	=	libft.a

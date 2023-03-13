@@ -20,7 +20,7 @@ There are static and dynamic [[Library (computing)|libraries]].
 
 How to create static and shared libraries: [C Programming Tutorial: Creating Libraries](https://randu.org/tutorials/c/libraries.php).
 
-Static libraries can be built with an ancient `ar` technology: `ar rcs <libname.a> <...object files>`. Also you should declare all functions that you don't want to leak to the outside world as `static`.
+Static libraries can be built with an ancient `ar` technology: `ar rcs <libname.a> <...object files>`. Also you should declare all functions that you don't want to leak to the outside world as `static`. See also [[Making libraries]].
 
 See [this](https://stackoverflow.com/questions/63444418/gcc-how-to-create-an-so-from-a-source-file-and-other-o-files) in case you want to build a shared library. 
 

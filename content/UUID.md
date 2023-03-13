@@ -1,9 +1,11 @@
 ---
 title: "UUID"
 aliases: [GUID]
+date: "2023-02-08"
+lastmod: "2023-02-08"
 ---
 
-Universally unique identifiers! Use them, they're pretty cool. In [[Javascript|JS]] you can generate them with `crypto.randomUUID()`.
+Universally unique identifiers! Use them, they're pretty cool. In [[JavaScript|JS]] you can generate them with `crypto.randomUUID()`.
 
 ### Links
 - [Is there any difference between a GUID and a UUID?](https://stackoverflow.com/questions/246930) (yes, there is)

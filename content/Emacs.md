@@ -11,6 +11,7 @@ Before doing anything in Emacs, [disable freaking system beep](https://wiki.arch
 - DoomCasts playlist on YouTube
 - [Doom Emacs questions : reddit](https://www.reddit.com/r/emacs/comments/uhd0nb/doom_emacs_questions/)
 - [Using Emacs for Literate Programming with Clojure - YouTube](https://www.youtube.com/watch?v=bhNvwxFV5vU)
+- [Quick guide for coming to the dark side (a.k.a. painless Vim to Emacs transition)](https://ramoncalvo.com/blog/vim-to-emacs/)
 
 ### C/C++
 - [rtags: A client/server indexer for c/c++/objc[++]](https://github.com/Andersbakken/rtags)
@@ -19,7 +20,5 @@ Before doing anything in Emacs, [disable freaking system beep](https://wiki.arch
 - https://github.com/minad/corfu
 - [Imenu Mode](https://www.emacswiki.org/emacs/ImenuMode#toc11)
 
-### Pre-made configs
-- Emacs Prelude
-- Corgi Emacs (for [[Clojure]])
-- [skeeto/.emacs.d](https://github.com/skeeto/.emacs.d)
+### See also
+- [[Prebuilt emacs configs]]

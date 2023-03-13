@@ -9,3 +9,4 @@ Structured Query Language
 ### Links
 - sqlbolt
 - [PostgreSQL Exercises](https://pgexercises.com/)
+- [SQL exercises](https://www.sql-ex.ru/)

@@ -19,3 +19,6 @@ int hello()
 
 For more info see:
 [What's the difference between declaring and defining in C and C++](https://www.cprogramming.com/declare_vs_define.html)
+
+### Translation unit
+Take a `.c` file, put in a preprocessor - you get a translation unit that is turned into an `.o` file after compilation. See also [on Wikipedia](https://en.wikipedia.org/wiki/Translation_unit_(programming)).

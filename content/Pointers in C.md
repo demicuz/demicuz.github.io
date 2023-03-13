@@ -11,6 +11,17 @@ The size of a pointer is dependent on the machine for which the code is compiled
 
 Casting pointers to `unsigned long` to do various things with them can cause **undefined behavior**! Whether `unsigned long` is the same size as a pointer is machine-dependent. Use `uintptr_t` instead. ^96aaca
 
+### Syntax
+Two pointers:
+```C
+int *a, *b;
+```
+
+One pointer, one int:
+```C
+int* a, b; // please don't do this
+```
+
 **References**:
 - [What is the size of a pointer in C? - Quora](https://www.quora.com/What-is-the-size-of-a-pointer-in-C)
 - [Are all data pointers the same size in one platform for all data types?](https://stackoverflow.com/questions/1241205/)

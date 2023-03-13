@@ -6,3 +6,6 @@ tags: ["tool", "list"]
 
 - [grep.app](https://grep.app/) - search across a half million git repos
 - tab9
+
+### See also
+- [[Docs, cheatsheets and stuff]]

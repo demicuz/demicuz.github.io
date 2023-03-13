@@ -24,6 +24,6 @@ JavaScript is a prototype-based language: there are **no classes** and objects a
 - [Memory Management - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
 
 ### Notes
-I recommend paring React with [Redux](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44), [Redux-Saga](https://redux-saga.js.org/) and [RITEway](https://github.com/ericelliott/riteway). I recommend pairing Redux with [Autodux](https://github.com/ericelliott/autodux) and [Immer](https://github.com/immerjs/immer). For complex state transitions, check out [Redux-DSM](https://github.com/ericelliott/redux-dsm) - Eric Elliott
+> I recommend paring React with [Redux](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44), [Redux-Saga](https://redux-saga.js.org/) and [RITEway](https://github.com/ericelliott/riteway). I recommend pairing Redux with [Autodux](https://github.com/ericelliott/autodux) and [Immer](https://github.com/immerjs/immer). For complex state transitions, check out [Redux-DSM](https://github.com/ericelliott/redux-dsm) - Eric Elliott
 
 **Prototypal Inheritance** ↔ objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects. #todo wat?

@@ -14,6 +14,7 @@ lastmod: "2022-08-17"
 - [Multiple Selection with the Keyboard – Sublime Text Documentation](https://www.sublimetext.com/docs/multiple_selection_with_the_keyboard.html) #todo
 - [lunixbochs/ActualVim: Sublime Text 3 input mode using Neovim.](https://github.com/lunixbochs/ActualVim) #todo
 - [Change build system by keyboard shortcut](https://forum.sublimetext.com/t/change-build-system-by-keyboard-shortcut/21769) #todo
+- [How to copy line in Sublime without new line](https://stackoverflow.com/questions/73488652/) #todo
 - Can I create a build system that launches [[kitty]]? Or even better, uses existing session?
 
 ### Notes

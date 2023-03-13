@@ -28,6 +28,7 @@ lastmod: "2022-08-17"
 `ctrl + x, o` to switch views (useful in tui mode).
 `set print pretty on` - to print structs in a more readable way.
 `print *array@size` to print arrays.
+`layout src|regs|split` - switch views.
 
 ### Useful
 - [gdbgui](https://www.gdbgui.com/)

@@ -54,3 +54,6 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize
 
 ### Power management
 Don't suspend session automatically when on battery. Disable screen locking and `Meta+L`.
+
+### Sounds
+[[SOLVED] Trying to disable startup sounds on Plasma](https://www.pclinuxos.com/forum/index.php?topic=154304.0)

@@ -5,6 +5,8 @@ date: "2022-12-08"
 
 A code editor. Heavily inspired by [[Vim]] and Kakoune.
 
+- [[Learning Helix]]
+
 ### Notes
 What's exactly different in `X` and `x`?
 

@@ -6,6 +6,7 @@ date: "2022-08-16"
 ### To-do
 Why do `cw` and `ce` act the same way, but `dw` and `de` not?
 `Shift + d` seems to behave like `d$`. Why?
+[10 Advanced Vim Features - Sebastian Daschner](https://blog.sebastian-daschner.com/entries/vim-10-advanced-features)
 
 ### Currently learning
 `ge` - `e` but backwards

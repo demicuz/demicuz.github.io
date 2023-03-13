@@ -59,3 +59,5 @@ Implementation of the _s21_graph_algorithms.h_ library:
 ### Cool guys
 - [mtiesha](https://profile.intra.42.fr/users/mtiesha)
 - [acristin](https://profile.intra.42.fr/users/acristin)
+- [Artem (Artyom) Kornikov | LinkedIn](https://www.linkedin.com/in/artyom-kornikov/) aka ngragas  ^3er3oh2
+	- [Rush-iam/Hypernull-Bot-nGragas: Бот на соревнование Croc (занял 1 место)](https://github.com/Rush-iam/Hypernull-Bot-nGragas)

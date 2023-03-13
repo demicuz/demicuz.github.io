@@ -13,7 +13,7 @@ lastmod: "2022-08-14"
 - [[OCaml]]
 	- [[ReasonML]]
 		- [[Revery]]
-- [[Javascript]], lol
+- [[JavaScript]], lol
 
 ### Articles #toexplore/coding 
 - [Composing Software: The Book](https://medium.com/javascript-scene/composing-software-the-book-f31c77fc3ddc)

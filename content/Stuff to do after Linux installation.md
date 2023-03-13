@@ -55,3 +55,6 @@ case $1/$2 in
     ;;
 esac
 ```
+
+### Mobile hotspot
+To make it work, change default TTL: [How to change the default TTL of TCP/IP packets](https://askubuntu.com/questions/667096/).

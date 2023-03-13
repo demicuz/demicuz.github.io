@@ -3,6 +3,10 @@ title: "3D viewer v1.0"
 date: "2022-11-19"
 ---
 
+### Related
+- [[check.h]]
+- [[OpenGL]]
+
 ### #todo
 What are precompiled headers?
 Choosing a GUI library: [[ImGui]] looks fine. Also [[Nuklear]]. Qt is too complex for this.
@@ -13,9 +17,6 @@ Choosing a GUI library: [[ImGui]] looks fine. Also [[Nuklear]]. Qt is too comple
 Сомнительный паттерн, но ок.
 
 Use `gcc`, C11 standard.
-
-### Unit testing
-[`libcheck`](https://github.com/libcheck/check) is a library for unit testing.
 
 ### Random
 Should use `glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );` for rendering the wireframe.
@@ -35,6 +36,10 @@ Should use `glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );` for rendering the wire
 - [Wireframes with barycentric coordinates](https://tchayen.github.io/posts/wireframes-with-barycentric-coordinates)
 - [Drawing Lines is Hard](https://mattdesl.svbtle.com/drawing-lines-is-hard)
 - [mhalber/Lines: 6 different implementations of doing wide line rendering in OpenGL](https://github.com/mhalber/Lines)
+
+**Drawing dashed lines in OpenGL**
+- [Dashed line in OpenGL3?](https://stackoverflow.com/questions/52928678/)
+- [glLineStipple deprecated in OpenGL 3.1](https://stackoverflow.com/questions/6017176/)
 
 **Probably use this to draw lines**
 [Draw different length of LINE\_LOOPs from buffer](https://stackoverflow.com/questions/23907881/)

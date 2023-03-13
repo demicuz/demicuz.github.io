@@ -7,3 +7,4 @@ Don't ask. Fedora repos are sometimes outdated, so I just download a binary.
 
 - [fd](https://github.com/sharkdp/fd)
 - [bat](https://github.com/sharkdp/bat)
+- [artempyanykh/marksman](https://github.com/artempyanykh/marksman)

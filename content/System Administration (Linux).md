@@ -15,6 +15,7 @@ lastmod: "2022-08-14"
 - [[cron]]
 - [[Linux autostart]]
 - [[systemctl]]
+- [[journalctl]]
 - [[Linux shared libraries]]
 
 ### Useful

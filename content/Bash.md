@@ -6,6 +6,7 @@ lastmod: "2022-08-24"
 ---
 
 - [[Redirection in Bash]]
+- [[Bash quirks]]
 
 ### Tips
 Seems like you can enclose variables into `{}` when using variables and text together:
@@ -24,6 +25,8 @@ Bob     24
 Mary    36
 ```
 
+- [Shell Parameter Expansion (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
+
 ### Setting env variables
 Use `sudo -H vim /etc/environment`. [Link](https://askubuntu.com/questions/58814).
 
@@ -37,8 +40,9 @@ Is a mess! I don't even know wtf is going on! #todo!
 - [[C (language)|C]]
 
 ### Useful
+- [Learn Bash streams, pipelines and redirection](https://github.com/miguelmota/bash-streams-handbook)
 - [[Useful terminal and shell commands]]
 - [explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
-- [tldr pages](https://tldr.sh/)
-- [cheat.sh](https://github.com/chubin/cheat.sh)
-	
+- [command-not-found.com](https://command-not-found.com/)
+- [Bash Test Operators Cheat Sheet](https://kapeli.com/cheat_sheets/Bash_Test_Operators.docset/Contents/Resources/Documents/index)
+- [[Docs, cheatsheets and stuff]]

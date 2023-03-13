@@ -39,3 +39,6 @@ b = (123,) # tuple
 
 ### Call stack limit
 By default, call stack is limited to 1000 frames. Weird, but OK.
+
+### Links
+- [Common Gotchas — The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/gotchas/)

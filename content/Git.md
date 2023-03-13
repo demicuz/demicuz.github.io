@@ -12,6 +12,7 @@ A version control system. Maybe not the best in all aspects, but the most popula
 
 **Other stuff**
 - [[Git recipes and how-to's]]
+- [[Git tips]]
 - [[Git resources]]
 - [[Git tags]]
 - [[Git repo cleaning]]

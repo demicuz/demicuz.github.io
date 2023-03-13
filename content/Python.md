@@ -7,9 +7,12 @@ lastmod: "2022-12-20"
 ---
 
 - [[Python quirks]]
+- [[Python scopes and namespaces]]
+- [[Python debugging]]
+- [[Python data structures]]
 
 ### #todo 
-- [Combinations - Rosetta Code](https://rosettacode.org/wiki/Combinations#Python) (Python example). Really worth attention. Didn't know `[i + 1:]` syntax is valid
+- [Combinations - Rosetta Code](https://rosettacode.org/wiki/Combinations#Python) (Python example). Didn't know `[i + 1:]` syntax is valid
 
 ### Links
 - [Learn Python - Free Interactive Python Tutorial](https://learnpython.org/)

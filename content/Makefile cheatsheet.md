@@ -13,6 +13,12 @@ lastmod: "2022-08-18"
 -   `$+`: Similar to `$^`, this is the names of all the prerequisites separated by spaces, except that `$+` includes duplicates. This variable was created for specific situations such as arguments to linkers where duplicate values have meaning.
 -   `$*`: The stem of the target filename. A stem is typically a filename without its suffix. Its use outside of pattern rules is discouraged.
 - `$(@F)`: like `$(notdir $@)`
+---
+- `:=` - simple assignment (evaluated once)
+- `?=` - conditional assignment (set the variable only if it is not set)
+- `=` - recursive assignment (evaluated every time a variable is encountered)
+- `+=` - appends stuff to the existing variable
+[source](https://stackoverflow.com/questions/4879592/)
 
 ### Links
 - [What do the makefile symbols $@ and $< mean? - Stack Overflow](https://stackoverflow.com/questions/3220277/what-do-the-makefile-symbols-and-mean) (has some useful info)

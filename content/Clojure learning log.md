@@ -59,6 +59,7 @@ Advent of Clerk repo has some cool code in the GitHub forks. Check out the Netwo
 ### Articles
 - https://www.abhinavomprakash.com/posts/clojure-walk/
 - [Clojure - Transient Data Structures](https://clojure.org/reference/transients)
+- [[Clojure reducers and transducers]]
 
 ### 4Clojure
 Custom flatten:

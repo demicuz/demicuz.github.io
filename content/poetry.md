@@ -5,7 +5,6 @@ lastmod: "2022-10-05"
 ---
 
 Yet another package manager for Python the language.
-`source $HOME/.poetry/env` to activate.
 
 > [!warning]
 > By default, poetry uses `~/.cache/pypoetry/virtualenvs` for storing virtual envs. Bad idea. Change it with `poetry config virtualenvs.path /your/new/path`. `$HOME/.local/share/poetry/virtualenvs` is suggested. See [this issue](https://github.com/python-poetry/poetry/issues/3346).
@@ -14,7 +13,8 @@ Yet another package manager for Python the language.
 - `poetry new` - create a project at current path
 - `poetry shell` - activate a virtual environment
 - `poetry add` - install packages
-	- `poetry add --dev` - install dev dependencies
+	- `poetry add --dev` - install dev dependencies (deprecated, use `-G dev`)
+ - `poetry update <package-name>` - update packages
 - `poetry show` - show all packages 
 - `poetry init` - initialize an existing project with `pyproject.toml`
 - `poetry install` - install dependencies of an existing project

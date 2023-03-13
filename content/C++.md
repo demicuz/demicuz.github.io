@@ -1,12 +1,17 @@
 ---
 title: "C++"
+date: "2023-01-27"
+lastmod: "2023-01-27"
 ---
 
 An extension of [[C (language)|C]].
+
+- [[C++ learning resources]]
+- [[C++ learning log]]
 
 ### To-do
 CERN has C++ repl?
 Move semantics.
 
 ### Links
-- [Уроки по С++ для начинающих / Ravesli](https://ravesli.com/uroki-cpp/)
+- [What are the differences between a pointer variable and a reference variable?](https://stackoverflow.com/questions/57483/)

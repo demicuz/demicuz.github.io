@@ -11,7 +11,9 @@ A [[Python]] framework for creating websites and web apps.
 - [[Django how-to's]]
 	- [[Django views]]
 	- [[Django models]]
+	- [[Django forms]]
 	- [[Django user groups and permissions]]
+	- [[Django routing]]
 - [[Manipulating databases with Django]]
 
 ### Notes
@@ -38,6 +40,7 @@ To create a custom `404` page, just add `404.html` to templates folder. Don't kn
 
 ### Stuff to read later
 - [Django Views — The Right Way](https://spookylukey.github.io/django-views-the-right-way/index.html)
+- [Tutorials | LearnDjango.com](https://learndjango.com/tutorials/)
 - [Making queries](https://docs.djangoproject.com/en/4.0/topics/db/queries/#field-lookups-intro)
 - [Passing variable from django template to view](https://stackoverflow.com/questions/29153593)
 - [How to redirect to previous page in Django after POST request - Stack Overflow](https://stackoverflow.com/questions/35796195)

@@ -10,3 +10,6 @@ date: "2022-08-15"
 - [[Sublime Merge]] - a beautiful git client
 - [[Fedora]]. Used [[Kubuntu]] previously.
 - Various [[Terminal tools]]
+
+### See also
+- [[A list of useful tools]]
