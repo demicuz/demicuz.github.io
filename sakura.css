@@ -80,6 +80,7 @@ hr {
 
 a {
   text-decoration: none;
+  border-bottom: 1px solid #4a4a4a;
   color: #1d7484;
 }
 a:visited {
@@ -87,7 +88,6 @@ a:visited {
 }
 a:hover {
   color: #982c61;
-  border-bottom: 2px solid #4a4a4a;
 }
 
 ul {
